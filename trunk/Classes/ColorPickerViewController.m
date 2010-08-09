@@ -3,7 +3,8 @@
 //  ColorPicker
 //
 //  Created by Gilly Dekel on 23/3/09.
-//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//  Extended by Fabián Cañas August 2010.
+//  Copyright 2010. All rights reserved.
 //
 
 #import "ColorPickerViewController.h"
@@ -17,13 +18,9 @@ NSString *keyForHue = @"hue";
 NSString *keyForSat = @"sat";
 NSString *keyForBright = @"bright";
 
-
-
-
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	NSLog(@"CALL ME ! " );
 	NSUserDefaults *saveColors = [NSUserDefaults standardUserDefaults];
 	ColorPickerView *theView = (ColorPickerView*) [self view];
 	
@@ -54,14 +51,6 @@ NSString *keyForBright = @"bright";
 	[saveColors setFloat:[theView currentSaturation] forKey:keyForSat];
 	[saveColors setFloat:[theView currentBrightness] forKey:keyForBright];
 }
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
 
 - (UIColor *) getSelectedColor {
 	return [(ColorPickerView *) [self view] getColorShown];

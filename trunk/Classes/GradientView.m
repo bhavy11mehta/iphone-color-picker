@@ -7,7 +7,7 @@
 //
 
 #import "GradientView.h"
-
+#import "UIColor-HSVAdditions.h"
 
 @implementation GradientView
 
@@ -35,14 +35,14 @@ CGPoint demoLGEnd(CGRect bounds)
 }
 
 - (void) setupGradient { 
-	
-	const CGFloat *c = CGColorGetComponents(theColor);
+	// Create a color equivalent to the current color with brightness maximized
+	const CGFloat *c = CGColorGetComponents([[UIColor colorWithHue:[theColor hue] 
+                                                      saturation:[theColor saturation]
+                                                      brightness:1.0
+                                                      alpha:1.0] CGColor]);
 	CGFloat colors[] =
-	{
-		255.0/255.0,255.0/255.0,255.0/255.0,1.0, //WHITE
-		
-		c[0],c[1],c[2],1.00, //THE COLOR
-		
+	{		
+		c[0],c[1],c[2],1.00, //THE COLOR with maximized brightness
 		0.0/255.0,0.0/255.0,0.0/255.0,1.0, //BLACK
 	};
 	
@@ -93,6 +93,7 @@ CGPoint demoLGEnd(CGRect bounds)
 
 - (void)dealloc {
 	CGGradientRelease(gradient);
+    theColor = nil;
     [super dealloc];
 }
 
