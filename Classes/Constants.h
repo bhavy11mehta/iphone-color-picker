@@ -3,7 +3,8 @@
  *  ColorPicker
  *
  *  Created by Gilly Dekel on 23/3/09.
- *  Copyright 2009 __MyCompanyName__. All rights reserved.
+ //  Extended by Fabián Cañas August 2010.
+ //  Copyright 2010. All rights reserved.
  *
  */
 

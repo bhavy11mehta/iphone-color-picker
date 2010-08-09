@@ -19,7 +19,6 @@
 		2F2683260F77B0960041B7A6 /* ColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2683250F77B0960041B7A6 /* ColorPickerView.m */; };
 		2F36D54B0F83A74800D10271 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F36D5490F83A74800D10271 /* Default.png */; };
 		2F36D54C0F83A74800D10271 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F36D54A0F83A74800D10271 /* Icon.png */; };
-		2F3CCFE90F77CFDB00DC189F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3CCFE70F77CFDB00DC189F /* background.png */; };
 		2F3CCFEA0F77CFDB00DC189F /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3CCFE80F77CFDB00DC189F /* colormap.png */; };
 		2F3CD0570F77F74600DC189F /* bar_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3CD0550F77F74600DC189F /* bar_select.png */; };
 		2F3CD0580F77F74600DC189F /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3CD0560F77F74600DC189F /* crosshair.png */; };
@@ -47,7 +46,6 @@
 		2F2683250F77B0960041B7A6 /* ColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerView.m; sourceTree = "<group>"; };
 		2F36D5490F83A74800D10271 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "UI Parts/Default.png"; sourceTree = "<group>"; };
 		2F36D54A0F83A74800D10271 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "UI Parts/Icon.png"; sourceTree = "<group>"; };
-		2F3CCFE70F77CFDB00DC189F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "UI Parts/background.png"; sourceTree = "<group>"; };
 		2F3CCFE80F77CFDB00DC189F /* colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colormap.png; path = "UI Parts/colormap.png"; sourceTree = "<group>"; };
 		2F3CD0400F77E33D00DC189F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		2F3CD0550F77F74600DC189F /* bar_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar_select.png; path = "UI Parts/bar_select.png"; sourceTree = "<group>"; };
@@ -132,7 +130,6 @@
 				2F36D54A0F83A74800D10271 /* Icon.png */,
 				2F3CD0550F77F74600DC189F /* bar_select.png */,
 				2F3CD0560F77F74600DC189F /* crosshair.png */,
-				2F3CCFE70F77CFDB00DC189F /* background.png */,
 				2F3CCFE80F77CFDB00DC189F /* colormap.png */,
 				2899E5210DE3E06400AC0155 /* ColorPickerViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -207,7 +204,6 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* ColorPickerViewController.xib in Resources */,
-				2F3CCFE90F77CFDB00DC189F /* background.png in Resources */,
 				2F3CCFEA0F77CFDB00DC189F /* colormap.png in Resources */,
 				2F3CD0570F77F74600DC189F /* bar_select.png in Resources */,
 				2F3CD0580F77F74600DC189F /* crosshair.png in Resources */,

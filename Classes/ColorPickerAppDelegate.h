@@ -3,7 +3,8 @@
 //  ColorPicker
 //
 //  Created by Gilly Dekel on 23/3/09.
-//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//  Extended by Fabián Cañas August 2010.
+//  Copyright 2010. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
