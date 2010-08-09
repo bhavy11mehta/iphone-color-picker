@@ -31,7 +31,7 @@
 	if (self = [super initWithCoder:coder]) {
 		
 		gradientView = [[GradientView alloc] initWithFrame:kBrightnessGradientPlacent];
-		[gradientView setTheColor:[UIColor yellowColor].CGColor];
+		[gradientView setTheColor:[UIColor yellowColor]];
 		[self addSubview:gradientView];
 		[self sendSubviewToBack:gradientView];
 		[self setMultipleTouchEnabled:YES];
@@ -112,7 +112,7 @@
 									brightness: kInitialBrightness 
 									alpha:1.0];
 	
-	[gradientView setTheColor:forGradient.CGColor];
+	[gradientView setTheColor:forGradient];
 	[gradientView setupGradient];
 	[gradientView setNeedsDisplay];
 

@@ -11,9 +11,9 @@
 
 @interface GradientView : UIView {
 	CGGradientRef gradient;
-	CGColorRef theColor;
+	UIColor *theColor;
 }
 
-@property (readwrite) CGColorRef theColor;
+@property (readwrite,nonatomic,retain) UIColor *theColor;
 - (void) setupGradient;
 @end
