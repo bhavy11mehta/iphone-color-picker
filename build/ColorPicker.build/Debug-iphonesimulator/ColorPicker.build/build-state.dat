@@ -1,0 +1,452 @@
+TColorPicker
+v7
+r0
+t303086483.076658
+cCheck dependencies
+cProcessInfoPlistFile /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/Info.plist Info.plist
+cCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/MainWindow.xib
+cCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib
+cCpResource build/Debug-iphonesimulator/HUE.app/background.png "UI Parts/background.png"
+cCpResource build/Debug-iphonesimulator/HUE.app/colormap.png "UI Parts/colormap.png"
+cCpResource build/Debug-iphonesimulator/HUE.app/bar_select.png "UI Parts/bar_select.png"
+cCpResource build/Debug-iphonesimulator/HUE.app/crosshair.png "UI Parts/crosshair.png"
+cCpResource build/Debug-iphonesimulator/HUE.app/Default.png "UI Parts/Default.png"
+cCpResource build/Debug-iphonesimulator/HUE.app/Icon.png "UI Parts/Icon.png"
+cProcessPCH /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch.gch ColorPicker_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/main.o /Users/fcanas/Projects/ColorPicker/trunk/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerAppDelegate.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerViewController.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/GradientView.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerView.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-Expanded.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-HSVAdditions.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE normal i386
+cGenerateDSYMFile /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app.dSYM /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE
+cTouch /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C46172C0000000000000132
+t1279661868
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.h
+c0000000049D3719F00000000000001F6
+t1238593951
+s502
+i<UIKit/UIKit.h>
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m
+c0000000049C7A466000000000000027D
+t1237820518
+s637
+i"ColorPickerAppDelegate.h"
+i"ColorPickerViewController.h"
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.h
+c0000000049D371570000000000000505
+t1238593879
+s1285
+i<UIKit/UIKit.h>
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m
+c0000000049D3E2F600000000000019B5
+t1238622966
+s6581
+i"ColorPickerView.h"
+i"GradientView.h"
+i"Constants.h"
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.h
+c000000004C6083C00000000000000194
+t1281393600
+s404
+i<UIKit/UIKit.h>
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m
+c000000004C60840C0000000000000876
+t1281393676
+s2166
+i"ColorPickerViewController.h"
+i"ColorPickerView.h"
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/Constants.h
+c0000000049D3E2CE0000000000000282
+t1238622926
+s642
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.h
+c0000000049C8A6D30000000000000146
+t1237886675
+s326
+i<UIKit/UIKit.h>
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m
+c0000000049C8B5CC000000000000082F
+t1237890508
+s2095
+i"GradientView.h"
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.h
+c0000000049B09AA60000000000000943
+t1236310694
+s2371
+i<UIKit/UIKit.h>
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m
+c0000000049B09AA600000000000040F4
+t1236310694
+s16628
+i"UIColor-Expanded.h"
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.h
+c000000004C604AB400000000000004A2
+t1281378996
+s1186
+i<UIKit/UIKit.h>
+i"UIColor-Expanded.h"
+
+N/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m
+c000000004C60830D000000000000069B
+t1281393421
+s1691
+i"UIColor-HSVAdditions.h"
+
+N/Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib
+c000000004C6083E20000000000008CBA
+t1281393634
+s36026
+
+N/Users/fcanas/Projects/ColorPicker/trunk/ColorPicker_Prefix.pch
+c0000000049C7730000000000000000BF
+t1237807872
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/fcanas/Projects/ColorPicker/trunk/MainWindow.xib
+c0000000049C7AA7900000000000022BE
+t1237822073
+s8894
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/Default.png
+c0000000049D36ACD0000000000002DED
+t1238592205
+s11757
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/Icon.png
+c0000000049D364360000000000000C40
+t1238590518
+s3136
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/background.png
+c0000000049D364E200000000000020FD
+t1238590690
+s8445
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/bar_select.png
+c0000000049D3640F00000000000001CA
+t1238590479
+s458
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/colormap.png
+c0000000049D364180000000000002A33
+t1238590488
+s10803
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/crosshair.png
+c0000000049D3642B0000000000000212
+t1238590507
+s530
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerAppDelegate.o
+t1281393637
+s45428
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerView.o
+t1281393572
+s66032
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerViewController.o
+t1281393676
+s41520
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/GradientView.o
+t1281393572
+s39824
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/HUE.LinkFileList
+c000000004C6083A200000000000003F2
+t1281393570
+s1010
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-Expanded.o
+t1281393572
+s49780
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-HSVAdditions.o
+t1281393572
+s11516
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/main.o
+t1281393572
+s6308
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app
+t1281393676
+s646
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app.dSYM
+t1281393676
+s102
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/ColorPickerViewController.nib
+t1281393637
+s2980
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/Default.png
+t1238595001
+s11757
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE
+t1281393676
+s67520
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/Icon.png
+t1238595001
+s3136
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/Info.plist
+t1238595000
+s956
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/MainWindow.nib
+t1238595001
+s1470
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/PkgInfo
+t1238595000
+s8
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/background.png
+t1238595001
+s8445
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/bar_select.png
+t1238595001
+s458
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/colormap.png
+t1238595001
+s10803
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/crosshair.png
+t1238595001
+s530
+
+N/Users/fcanas/Projects/ColorPicker/trunk/main.m
+c0000000049C77300000000000000016C
+t1237807872
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch.gch
+t1281393571
+s15232016
+
+NInfo.plist
+c0000000049D3747400000000000003B2
+t1238594676
+s946
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303086483#303086483#0(0"0(0#1#0"8667184608#0"0#
+
+CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerAppDelegate.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303086437.646326
+e303086437.742677
+r1
+xCompileC
+xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerAppDelegate.o
+x/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m303086437#303086437#0(0"0(0#0#73"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m8665529472#2015"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerAppDelegate.o0#
+
+CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerView.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303086372.133087
+e303086372.338746
+r1
+xCompileC
+xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerView.o
+x/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m303086372#303086372#0(0"0(0#0#66"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m8643721504#2001"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerView.o0#
+
+CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerViewController.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303086476.157579
+e303086476.429799
+r1
+xCompileC
+xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerViewController.o
+x/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m303086476#303086476#0(0"0(0#0#76"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m8649572192#2021"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerViewController.o0#
+
+CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/GradientView.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303086372.082565
+e303086372.193052
+r1
+xCompileC
+xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/GradientView.o
+x/Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m303086372#303086372#0(0"0(0#0#63"/Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m8656128352#1995"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/GradientView.o0#
+
+CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-Expanded.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303086372.193153
+e303086372.396479
+r1
+xCompileC
+xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-Expanded.o
+x/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m303086372#303086372#0(0"0(0#0#67"/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m8630722432#2003"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-Expanded.o0#
+
+CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-HSVAdditions.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303086372.339170
+e303086372.419441
+r1
+xCompileC
+xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-HSVAdditions.o
+x/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m303086372#303086372#0(0"0(0#0#71"/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m8664881824#2011"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-HSVAdditions.o0#
+
+CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/main.o /Users/fcanas/Projects/ColorPicker/trunk/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303086371.978395
+e303086372.046678
+r1
+xCompileC
+xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/main.o
+x/Users/fcanas/Projects/ColorPicker/trunk/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/fcanas/Projects/ColorPicker/trunk/main.m303086371#303086372#0(0"0(0#0#47"/Users/fcanas/Projects/ColorPicker/trunk/main.m8665960704#1971"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/main.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib
+s303086437.128251
+e303086437.646033
+r1
+xCompileXIB
+x/Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib
+lSLF07#2@40"CompileXIB ColorPickerViewController.xib303086437#303086437#0(0"0(0#0#70"/Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib8635767040#602"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/ColorPickerViewController.nib /Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/HUE.app/Default.png "UI Parts/Default.png"
+r0
+
+CCpResource build/Debug-iphonesimulator/HUE.app/Icon.png "UI Parts/Icon.png"
+r0
+
+CCpResource build/Debug-iphonesimulator/HUE.app/background.png "UI Parts/background.png"
+r0
+
+CCpResource build/Debug-iphonesimulator/HUE.app/bar_select.png "UI Parts/bar_select.png"
+r0
+
+CCpResource build/Debug-iphonesimulator/HUE.app/colormap.png "UI Parts/colormap.png"
+r0
+
+CCpResource build/Debug-iphonesimulator/HUE.app/crosshair.png "UI Parts/crosshair.png"
+r0
+
+CGenerateDSYMFile /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app.dSYM /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE
+s303086476.459073
+e303086476.483197
+r1
+xGenerateDSYMFile
+x/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app.dSYM
+x/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE
+lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/HUE.app.dSYM build/Debug-iphonesimulator/HUE.app/HUE303086476#303086476#0(0"0(0#0#80"/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE8657039680#377"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE -o /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app.dSYM0#
+
+CLd /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE normal i386
+s303086476.429892
+e303086476.458974
+r1
+xLd
+x/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE
+xnormal
+xi386
+lSLF07#2@85"Link /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE303086476#303086476#0(0"0(0#0#0"8663784288#906"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -filelist /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/HUE.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE0#
+
+CProcessInfoPlistFile /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/Info.plist Info.plist
+r0
+
+CProcessPCH /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch.gch ColorPicker_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s303086370.776890
+e303086371.978293
+r1
+xProcessPCH
+x/var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch.gch
+xColorPicker_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile ColorPicker_Prefix.pch303086370#303086371#0(0"0(0#0#63"/Users/fcanas/Projects/ColorPicker/trunk/ColorPicker_Prefix.pch8648101856#1857"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -c /Users/fcanas/Projects/ColorPicker/trunk/ColorPicker_Prefix.pch -o /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch.gch0#
+
+CTouch /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app
+s303086476.483286
+e303086476.486074
+r1
+xTouch
+x/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app
+lSLF07#2@82"Touch /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app303086476#303086476#0(0"0(0#0#0"8656619744#278"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app0#
+
