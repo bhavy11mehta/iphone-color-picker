@@ -75,37 +75,10 @@
 }  
 
 
-- (void) getStringForHSL : (float) hue : (float) sat : (float) bright {
-		
-	[Hcoords setText:[NSString stringWithFormat:@"%d",(int)(hue*255)]];
-	[Scoords setText:[NSString stringWithFormat:@"%d",(int)(sat*255)]];
-	[Lcoords setText:[NSString stringWithFormat:@"%d",(int)(bright*255)]];
-
-}
-
-
-- (void) getStringForRGB :(CGColorRef) theColor {
-	const CGFloat *c = CGColorGetComponents(theColor);  
-	CGFloat r, g, b;  
-	r = c[0];  
-	g = c[1];  
-	b = c[2];  
-	
-	[Rcoords setText:[NSString stringWithFormat:@"%d",(int)(r*255)]];
-	[Gcoords setText:[NSString stringWithFormat:@"%d",(int)(g*255)]];
-	[Bcoords setText:[NSString stringWithFormat:@"%d",(int)(b*255)]];
-	
-	
-}
-
-
 - (void) updateHueSatWithMovement : (CGPoint) position {
 
 	currentHue = (position.x-kXAxisOffset)/kMatrixWidth;
 	currentSaturation = 1.0 -  (position.y-kYAxisOffset)/kMatrixHeight;
-	
-	//printf("hue Of the touch is : %f\n",currentHue);
-//	printf("sat Of the touch is : %f\n",currentSaturation);
 	
 	UIColor *forGradient = [UIColor colorWithHue:currentHue 
 									saturation:currentSaturation 
@@ -122,9 +95,6 @@
 									   alpha:1.0];
 	
 	[showColor setBackgroundColor:currentColor];
-	[colorInHex setText:[self hexStringFromColor:currentColor.CGColor]]; 
-	[self getStringForRGB:currentColor.CGColor];
-	[self getStringForHSL:currentHue :currentSaturation :currentBrightness];
 }
 
 
@@ -139,9 +109,6 @@
 											 alpha:1.0];
 	
 	[showColor setBackgroundColor:forColorView];
-	[colorInHex setText:[self hexStringFromColor:forColorView.CGColor]]; 
-	[self getStringForRGB:forColorView.CGColor];
-	[self getStringForHSL:currentHue :currentSaturation :currentBrightness];
 }
 
 
@@ -209,8 +176,6 @@
 	
 }
 
-
-
 - (void)drawRect:(CGRect)rect {
     
 	CGFloat x = currentHue * kMatrixWidth;
@@ -224,7 +189,6 @@
 	
 	[gradientView setupGradient];
 	[gradientView setNeedsDisplay];
-	[colorInHex setFont:[UIFont fontWithName:@"helvetica" size:16]];
 	[self sendSubviewToBack:showColor];
 
 }
@@ -238,6 +202,5 @@
     [super dealloc];
 	
 }
-
 
 @end

@@ -1,537 +1,0 @@
-TColorPicker
-v7
-r0
-t303086372.419537
-cCheck dependencies
-cProcessInfoPlistFile /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/Info.plist Info.plist
-cCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/MainWindow.xib
-cCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib
-cCpResource build/Debug-iphonesimulator/HUE.app/background.png "UI Parts/background.png"
-cCpResource build/Debug-iphonesimulator/HUE.app/colormap.png "UI Parts/colormap.png"
-cCpResource build/Debug-iphonesimulator/HUE.app/bar_select.png "UI Parts/bar_select.png"
-cCpResource build/Debug-iphonesimulator/HUE.app/crosshair.png "UI Parts/crosshair.png"
-cCpResource build/Debug-iphonesimulator/HUE.app/Default.png "UI Parts/Default.png"
-cCpResource build/Debug-iphonesimulator/HUE.app/Icon.png "UI Parts/Icon.png"
-cProcessPCH /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch.gch ColorPicker_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/main.o /Users/fcanas/Projects/ColorPicker/trunk/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerAppDelegate.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerViewController.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/GradientView.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerView.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-Expanded.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-HSVAdditions.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C46172C0000000000000132
-t1279661868
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.h
-c0000000049D3719F00000000000001F6
-t1238593951
-s502
-i<UIKit/UIKit.h>
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m
-c0000000049C7A466000000000000027D
-t1237820518
-s637
-i"ColorPickerAppDelegate.h"
-i"ColorPickerViewController.h"
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.h
-c0000000049D371570000000000000505
-t1238593879
-s1285
-i<UIKit/UIKit.h>
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m
-c0000000049D3E2F600000000000019B5
-t1238622966
-s6581
-i"ColorPickerView.h"
-i"GradientView.h"
-i"Constants.h"
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.h
-c0000000049D371B100000000000001EA
-t1238593969
-s490
-i<UIKit/UIKit.h>
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m
-c0000000049D372500000000000000A36
-t1238594128
-s2614
-i"ColorPickerViewController.h"
-i"ColorPickerView.h"
-i"AboutScreenViewController.h"
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/Constants.h
-c0000000049D3E2CE0000000000000282
-t1238622926
-s642
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.h
-c0000000049C8A6D30000000000000146
-t1237886675
-s326
-i<UIKit/UIKit.h>
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m
-c0000000049C8B5CC000000000000082F
-t1237890508
-s2095
-i"GradientView.h"
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.h
-c0000000049B09AA60000000000000943
-t1236310694
-s2371
-i<UIKit/UIKit.h>
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m
-c0000000049B09AA600000000000040F4
-t1236310694
-s16628
-i"UIColor-Expanded.h"
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.h
-c000000004C604AB400000000000004A2
-t1281378996
-s1186
-i<UIKit/UIKit.h>
-i"UIColor-Expanded.h"
-
-N/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m
-c000000004C60830D000000000000069B
-t1281393421
-s1691
-i"UIColor-HSVAdditions.h"
-
-N/Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib
-c0000000049D376130000000000005EFB
-t1238595091
-s24315
-
-N/Users/fcanas/Projects/ColorPicker/trunk/ColorPicker_Prefix.pch
-c0000000049C7730000000000000000BF
-t1237807872
-s191
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/fcanas/Projects/ColorPicker/trunk/MainWindow.xib
-c0000000049C7AA7900000000000022BE
-t1237822073
-s8894
-
-N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/Default.png
-c0000000049D36ACD0000000000002DED
-t1238592205
-s11757
-
-N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/Icon.png
-c0000000049D364360000000000000C40
-t1238590518
-s3136
-
-N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/background.png
-c0000000049D364E200000000000020FD
-t1238590690
-s8445
-
-N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/bar_select.png
-c0000000049D3640F00000000000001CA
-t1238590479
-s458
-
-N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/colormap.png
-c0000000049D364180000000000002A33
-t1238590488
-s10803
-
-N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/crosshair.png
-c0000000049D3642B0000000000000212
-t1238590507
-s530
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerAppDelegate.o
-t1281393572
-s45532
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerView.o
-t1281393572
-s66032
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerViewController.o
-t2
-s0
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/GradientView.o
-t1281393572
-s39824
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/HUE.LinkFileList
-c000000004C6083A200000000000003F2
-t1281393570
-s1010
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-Expanded.o
-t1281393572
-s49780
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-HSVAdditions.o
-t1281393572
-s11516
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/main.o
-t1281393572
-s6308
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app
-t1239886896
-s646
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app.dSYM
-t1239886896
-s102
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/ColorPickerViewController.nib
-t1238595121
-s5521
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/Default.png
-t1238595001
-s11757
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE
-t1239886896
-s40524
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/Icon.png
-t1238595001
-s3136
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/Info.plist
-t1238595000
-s956
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/MainWindow.nib
-t1238595001
-s1470
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/PkgInfo
-t1238595000
-s8
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/background.png
-t1238595001
-s8445
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/bar_select.png
-t1238595001
-s458
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/colormap.png
-t1238595001
-s10803
-
-N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/crosshair.png
-t1238595001
-s530
-
-N/Users/fcanas/Projects/ColorPicker/trunk/main.m
-c0000000049C77300000000000000016C
-t1237807872
-s364
-i<UIKit/UIKit.h>
-
-N/var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch.gch
-t1281393571
-s15232016
-
-NInfo.plist
-c0000000049D3747400000000000003B2
-t1238594676
-s946
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies303086370#303086370#0(0"0(0#1#0"8607064064#0"0#
-
-CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerAppDelegate.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303086371.979531
-e303086372.082460
-r1
-xCompileC
-xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerAppDelegate.o
-x/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m303086371#303086372#0(0"0(0#0#73"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m8664898944#2015"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerAppDelegate.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerAppDelegate.o0#
-
-CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerView.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303086372.133087
-e303086372.338746
-r1
-xCompileC
-xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerView.o
-x/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m303086372#303086372#0(0"0(0#0#66"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m8643721504#2001"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerView.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerView.o0#
-
-CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerViewController.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303086372.046809
-e303086372.132990
-r0
-xCompileC
-xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerViewController.o
-x/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m:11:38: error: AboutScreenViewController.h: No such file or directory
-o/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m: In function '-[ColorPickerViewController viewDidLoad]':
-o/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m:48: warning: receiver 'AboutScreenViewController' is a forward class and corresponding @interface may not exist
-o/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m: In function '-[ColorPickerViewController pressedAboutButton]':
-o/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m:84: error: accessing unknown 'view' component of a property
-o/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m:85: error: accessing unknown 'view' component of a property
-o{standard input}:497:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000004$pb"
-o{standard input}:497:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
-o{standard input}:493:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000004$pb"
-o{standard input}:493:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
-o{standard input}:464:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"
-o{standard input}:464:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
-o{standard input}:458:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000003$pb"
-o{standard input}:458:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
-o{standard input}:426:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"
-o{standard input}:426:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
-o{standard input}:421:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000002$pb"
-o{standard input}:421:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
-o{standard input}:409:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"
-o{standard input}:409:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
-o{standard input}:404:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"
-o{standard input}:404:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
-o{standard input}:392:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"
-o{standard input}:392:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
-o{standard input}:387:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"
-o{standard input}:387:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
-o{standard input}:376:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000002$pb"
-o{standard input}:376:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
-o{standard input}:368:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"
-o{standard input}:368:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
-o{standard input}:365:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"
-o{standard input}:365:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
-o{standard input}:331:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"
-o{standard input}:331:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
-o{standard input}:322:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"
-o{standard input}:322:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
-o{standard input}:312:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"
-o{standard input}:312:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
-o{standard input}:305:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"
-o{standard input}:305:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
-o{standard input}:302:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000001$pb"
-o{standard input}:302:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
-o{standard input}:294:non-relocatable subtraction expression, "LC9" minus "L00000000001$pb"
-o{standard input}:294:symbol: "LC9" can't be undefined in a subtraction expression
-o{standard input}:292:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"
-o{standard input}:292:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
-o{standard input}:282:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
-o{standard input}:282:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
-o{standard input}:276:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
-o{standard input}:276:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
-o{standard input}:263:non-relocatable subtraction expression, "LC8" minus "L00000000001$pb"
-o{standard input}:263:symbol: "LC8" can't be undefined in a subtraction expression
-o{standard input}:256:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
-o{standard input}:256:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
-o{standard input}:245:non-relocatable subtraction expression, "LC9" minus "L00000000001$pb"
-o{standard input}:245:symbol: "LC9" can't be undefined in a subtraction expression
-o{standard input}:243:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
-o{standard input}:243:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
-o{standard input}:233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
-o{standard input}:233:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
-o{standard input}:227:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
-o{standard input}:227:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
-o{standard input}:214:non-relocatable subtraction expression, "LC8" minus "L00000000001$pb"
-o{standard input}:214:symbol: "LC8" can't be undefined in a subtraction expression
-o{standard input}:207:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
-o{standard input}:207:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
-o{standard input}:196:non-relocatable subtraction expression, "LC9" minus "L00000000001$pb"
-o{standard input}:196:symbol: "LC9" can't be undefined in a subtraction expression
-o{standard input}:194:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
-o{standard input}:194:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
-o{standard input}:184:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
-o{standard input}:184:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
-o{standard input}:178:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
-o{standard input}:178:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
-o{standard input}:165:non-relocatable subtraction expression, "LC8" minus "L00000000001$pb"
-o{standard input}:165:symbol: "LC8" can't be undefined in a subtraction expression
-o{standard input}:158:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
-o{standard input}:158:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
-o{standard input}:148:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
-o{standard input}:148:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
-o{standard input}:140:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
-o{standard input}:140:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
-o{standard input}:137:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
-o{standard input}:137:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
-o{standard input}:127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
-o{standard input}:127:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
-o{standard input}:123:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"
-o{standard input}:123:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
-o{standard input}:unknown:Undefined local symbol LC8
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
-o{standard input}:unknown:Undefined local symbol LC9
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
-lSLF07#2@84"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m303086372#303086372#0(11425"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m:11:38: error: AboutScreenViewController.h: No such file or directory/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m: In function '-[ColorPickerViewController viewDidLoad]':/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m:48: warning: receiver 'AboutScreenViewController' is a forward class and corresponding @interface may not exist/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m: In function '-[ColorPickerViewController pressedAboutButton]':/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m:84: error: accessing unknown 'view' component of a property/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m:85: error: accessing unknown 'view' component of a property{standard input}:497:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000004$pb"{standard input}:497:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:493:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000004$pb"{standard input}:493:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:464:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"{standard input}:464:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:458:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000003$pb"{standard input}:458:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:426:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"{standard input}:426:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:421:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000002$pb"{standard input}:421:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:409:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"{standard input}:409:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:404:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"{standard input}:404:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:392:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"{standard input}:392:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:387:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"{standard input}:387:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:376:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000002$pb"{standard input}:376:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:368:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"{standard input}:368:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:365:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000002$pb"{standard input}:365:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:331:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"{standard input}:331:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:322:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"{standard input}:322:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:312:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"{standard input}:312:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:305:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"{standard input}:305:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:302:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000001$pb"{standard input}:302:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:294:non-relocatable subtraction expression, "LC9" minus "L00000000001$pb"{standard input}:294:symbol: "LC9" can't be undefined in a subtraction expression{standard input}:292:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"{standard input}:292:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:282:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:282:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:276:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:276:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:263:non-relocatable subtraction expression, "LC8" minus "L00000000001$pb"{standard input}:263:symbol: "LC8" can't be undefined in a subtraction expression{standard input}:256:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:256:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:245:non-relocatable subtraction expression, "LC9" minus "L00000000001$pb"{standard input}:245:symbol: "LC9" can't be undefined in a subtraction expression{standard input}:243:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"{standard input}:243:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:233:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:227:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:227:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:214:non-relocatable subtraction expression, "LC8" minus "L00000000001$pb"{standard input}:214:symbol: "LC8" can't be undefined in a subtraction expression{standard input}:207:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:207:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:196:non-relocatable subtraction expression, "LC9" minus "L00000000001$pb"{standard input}:196:symbol: "LC9" can't be undefined in a subtraction expression{standard input}:194:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:194:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:184:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:184:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:178:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:178:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:165:non-relocatable subtraction expression, "LC8" minus "L00000000001$pb"{standard input}:165:symbol: "LC8" can't be undefined in a subtraction expression{standard input}:158:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:158:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:148:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:148:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:140:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:140:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:137:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:137:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:127:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:123:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"{standard input}:123:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol LC8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol LC9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_164(4@54"AboutScreenViewController.h: No such file or directory303086372#0#146#0(6@76"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m260286928#11#0#11#0#28"*: No such file or directory0(22@98"Receiver 'AboutScreenViewController' is a forward class and corresponding @interface may not exist303086372#280#189#0(6@76"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m260286928#48#0#48#0#0"0(4@48"Accessing unknown 'view' component of a property303086372#610#137#0(6@76"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m260286928#84#0#84#0#0"0(4@48"Accessing unknown 'view' component of a property303086372#747#137#0(6@76"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m260286928#85#0#85#0#0"0(0#0#76"/Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m8663569056#2021"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/ColorPickerViewController.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/ColorPickerViewController.o1#
-
-CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/GradientView.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303086372.082565
-e303086372.193052
-r1
-xCompileC
-xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/GradientView.o
-x/Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m303086372#303086372#0(0"0(0#0#63"/Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m8656128352#1995"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/GradientView.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/GradientView.o0#
-
-CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-Expanded.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303086372.193153
-e303086372.396479
-r1
-xCompileC
-xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-Expanded.o
-x/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m303086372#303086372#0(0"0(0#0#67"/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m8630722432#2003"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-Expanded.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-Expanded.o0#
-
-CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-HSVAdditions.o /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303086372.339170
-e303086372.419441
-r1
-xCompileC
-xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-HSVAdditions.o
-x/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m303086372#303086372#0(0"0(0#0#71"/Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m8664881824#2011"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/Classes/UIColor-HSVAdditions.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/UIColor-HSVAdditions.o0#
-
-CCompileC build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/main.o /Users/fcanas/Projects/ColorPicker/trunk/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303086371.978395
-e303086372.046678
-r1
-xCompileC
-xbuild/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/main.o
-x/Users/fcanas/Projects/ColorPicker/trunk/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/fcanas/Projects/ColorPicker/trunk/main.m303086371#303086372#0(0"0(0#0#47"/Users/fcanas/Projects/ColorPicker/trunk/main.m8665960704#1971"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -include /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch -c /Users/fcanas/Projects/ColorPicker/trunk/main.m -o /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib
-r0
-
-CCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/MainWindow.xib
-r0
-
-CCpResource build/Debug-iphonesimulator/HUE.app/Default.png "UI Parts/Default.png"
-r0
-
-CCpResource build/Debug-iphonesimulator/HUE.app/Icon.png "UI Parts/Icon.png"
-r0
-
-CCpResource build/Debug-iphonesimulator/HUE.app/background.png "UI Parts/background.png"
-r0
-
-CCpResource build/Debug-iphonesimulator/HUE.app/bar_select.png "UI Parts/bar_select.png"
-r0
-
-CCpResource build/Debug-iphonesimulator/HUE.app/colormap.png "UI Parts/colormap.png"
-r0
-
-CCpResource build/Debug-iphonesimulator/HUE.app/crosshair.png "UI Parts/crosshair.png"
-r0
-
-CGenerateDSYMFile /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app.dSYM /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE
-r0
-
-CLd /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/HUE normal i386
-r0
-
-CProcessInfoPlistFile /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app/Info.plist Info.plist
-r0
-
-CProcessPCH /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch.gch ColorPicker_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s303086370.776890
-e303086371.978293
-r1
-xProcessPCH
-x/var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch.gch
-xColorPicker_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile ColorPicker_Prefix.pch303086370#303086371#0(0"0(0#0#63"/Users/fcanas/Projects/ColorPicker/trunk/ColorPicker_Prefix.pch8648101856#1857"    cd /Users/fcanas/Projects/ColorPicker/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-generated-files.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-own-target-headers.hmap -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-all-target-headers.hmap -iquote /Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/HUE-project-headers.hmap -F/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator -I/Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/include -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources/i386 -I/Users/fcanas/Projects/ColorPicker/trunk/build/ColorPicker.build/Debug-iphonesimulator/ColorPicker.build/DerivedSources -c /Users/fcanas/Projects/ColorPicker/trunk/ColorPicker_Prefix.pch -o /var/folders/xK/xKTvX2znG+a0l+bJEG9dLk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorPicker_Prefix-cwkcasfmcuwjcygznrgprybgsand/ColorPicker_Prefix.pch.gch0#
-
-CTouch /Users/fcanas/Projects/ColorPicker/trunk/build/Debug-iphonesimulator/HUE.app
-r0
-

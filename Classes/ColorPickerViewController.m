@@ -12,7 +12,7 @@
 
 @implementation ColorPickerViewController
 
-@synthesize aboutScreenViewController;
+@synthesize delegate, defaultsKey, chooseButton;
 
 NSString *keyForHue = @"hue";
 NSString *keyForSat = @"sat";
@@ -23,7 +23,6 @@ NSString *keyForBright = @"bright";
     [super viewDidLoad];
 	NSUserDefaults *saveColors = [NSUserDefaults standardUserDefaults];
 	ColorPickerView *theView = (ColorPickerView*) [self view];
-	
 	
 	if ([saveColors floatForKey:keyForHue])
 		[theView setCurrentHue:[saveColors floatForKey:keyForHue]];
@@ -54,6 +53,10 @@ NSString *keyForBright = @"bright";
 
 - (UIColor *) getSelectedColor {
 	return [(ColorPickerView *) [self view] getColorShown];
+}
+
+- (IBAction) chooseSelectedColor {
+    [delegate colorPickerViewController:self didSelectColor:[self getSelectedColor]];
 }
 
 - (void)didReceiveMemoryWarning {

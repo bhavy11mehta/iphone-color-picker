@@ -7,7 +7,7 @@
 //
 
 #import "ColorPickerAppDelegate.h"
-#import "ColorPickerViewController.h"
+#import "StandinViewController.h"
 
 @implementation ColorPickerAppDelegate
 

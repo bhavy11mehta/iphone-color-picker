@@ -20,16 +20,6 @@
 	IBOutlet UIImageView *crossHairs;
 	IBOutlet UIImageView *brightnessBar;
 	
-	IBOutlet UILabel *colorInHex;
-	IBOutlet UILabel *Hcoords;
-	IBOutlet UILabel *Scoords;
-	IBOutlet UILabel *Lcoords;
-	IBOutlet UILabel *Rcoords;
-	IBOutlet UILabel *Gcoords;
-	IBOutlet UILabel *Bcoords;
-	
-	
-	
 	//Private vars
 	CGRect colorMatrixFrame;
 	
