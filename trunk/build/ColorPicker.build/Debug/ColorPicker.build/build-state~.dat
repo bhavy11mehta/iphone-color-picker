@@ -1,0 +1,200 @@
+TColorPicker
+v7
+r1
+cCheck dependencies
+
+N/Users/fcanas/Projects/ColorPicker/trunk/AboutScreenView.xib
+c0000000049D376250000000000003F90
+t1238595109
+s16272
+
+N/Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib
+c0000000049D376130000000000005EFB
+t1238595091
+s24315
+
+N/Users/fcanas/Projects/ColorPicker/trunk/MainWindow.xib
+c0000000049C7AA7900000000000022BE
+t1237822073
+s8894
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/Default.png
+c0000000049D36ACD0000000000002DED
+t1238592205
+s11757
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/Icon.png
+c0000000049D364360000000000000C40
+t1238590518
+s3136
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/about_bg.png
+c0000000049CB8FD4000000000000983B
+t1238077396
+s38971
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/appcatalog_up.png
+c0000000049CB8FD70000000000000B0F
+t1238077399
+s2831
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/background.png
+c0000000049D364E200000000000020FD
+t1238590690
+s8445
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/bar_select.png
+c0000000049D3640F00000000000001CA
+t1238590479
+s458
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/close_up.png
+c0000000049CB8FDB00000000000005E9
+t1238077403
+s1513
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/colormap.png
+c0000000049D364180000000000002A33
+t1238590488
+s10803
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/crosshair.png
+c0000000049D3642B0000000000000212
+t1238590507
+s530
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/emailsupport_up.png
+c0000000049CB8FDF0000000000000D73
+t1238077407
+s3443
+
+N/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/tellyourfriends_up.png
+c0000000049CB8FE20000000000000DE6
+t1238077410
+s3558
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Info.plist
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/AboutScreenView.nib
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/ColorPickerViewController.nib
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/Icon.png
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/about_bg.png
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/appcatalog_up.png
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/background.png
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/bar_select.png
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/close_up.png
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/colormap.png
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/crosshair.png
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/emailsupport_up.png
+t2
+s0
+
+N/Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Resources/tellyourfriends_up.png
+t2
+s0
+
+NInfo.plist
+c0000000049D3747400000000000003B2
+t1238594676
+s946
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303086351#303086351#0(68"[BEROR]error: There is no SDK with the name or path 'iphoneos2.2.1'1(4@60"error: There is no SDK with the name or path 'iphoneos2.2.1'303086351#18446744073709551615#0#0(1@0"0(0#1#0"8606756800#0"0#
+
+CCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/AboutScreenView.xib
+r0
+
+CCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/ColorPickerViewController.xib
+r0
+
+CCompileXIB /Users/fcanas/Projects/ColorPicker/trunk/MainWindow.xib
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/Default.png "UI Parts/Default.png"
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/Icon.png "UI Parts/Icon.png"
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/about_bg.png "UI Parts/about_bg.png"
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/appcatalog_up.png "UI Parts/appcatalog_up.png"
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/background.png "UI Parts/background.png"
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/bar_select.png "UI Parts/bar_select.png"
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/close_up.png "UI Parts/close_up.png"
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/colormap.png "UI Parts/colormap.png"
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/crosshair.png "UI Parts/crosshair.png"
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/emailsupport_up.png "UI Parts/emailsupport_up.png"
+r0
+
+CCpResource build/Debug/HUE.app/Contents/Resources/tellyourfriends_up.png "UI Parts/tellyourfriends_up.png"
+r0
+
+CProcessInfoPlistFile /Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app/Contents/Info.plist Info.plist
+r0
+
+CTouch /Users/fcanas/Projects/ColorPicker/trunk/build/Debug/HUE.app
+r0
+
