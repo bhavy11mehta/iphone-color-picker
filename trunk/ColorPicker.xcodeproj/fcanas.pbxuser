@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* ColorPickerAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1379, 391}}";
-			sepNavSelRange = "{416, 0}";
-			sepNavVisRange = "{48, 442}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 502}}";
+			sepNavSelRange = "{172, 0}";
+			sepNavVisRange = "{0, 514}";
 		};
 	};
 	1D3623250D0F684500981E51 /* ColorPickerAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1095, 578}}";
-			sepNavSelRange = "{452, 0}";
-			sepNavVisRange = "{51, 582}";
+			sepNavSelRange = "{172, 0}";
+			sepNavVisRange = "{0, 648}";
 			sepNavWindowFrame = "{{61, 202}, {1333, 629}}";
 		};
 	};
@@ -24,15 +24,15 @@
 	28D7ACF60DDB3853001CB0EB /* ColorPickerViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1095, 578}}";
-			sepNavSelRange = "{845, 0}";
-			sepNavVisRange = "{54, 793}";
+			sepNavSelRange = "{175, 0}";
+			sepNavVisRange = "{0, 832}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 1241}}";
-			sepNavSelRange = "{338, 0}";
-			sepNavVisRange = "{851, 908}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 1258}}";
+			sepNavSelRange = "{54, 121}";
+			sepNavVisRange = "{0, 849}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -133,43 +133,50 @@
 	};
 	2F2683140F77AFB30041B7A6 /* GradientView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 529}}";
-			sepNavSelRange = "{300, 0}";
-			sepNavVisRange = "{0, 339}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 502}}";
+			sepNavSelRange = "{163, 0}";
+			sepNavVisRange = "{0, 363}";
 		};
 	};
 	2F2683150F77AFB30041B7A6 /* GradientView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1379, 1904}}";
-			sepNavSelRange = "{199, 0}";
-			sepNavVisRange = "{0, 375}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 1819}}";
+			sepNavSelRange = "{79, 0}";
+			sepNavVisRange = "{0, 626}";
 		};
 	};
 	2F2683240F77B0960041B7A6 /* ColorPickerView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 799}}";
-			sepNavSelRange = "{580, 0}";
-			sepNavVisRange = "{382, 698}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 833}}";
+			sepNavSelRange = "{165, 0}";
+			sepNavVisRange = "{0, 728}";
 		};
 	};
 	2F2683250F77B0960041B7A6 /* ColorPickerView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 3417}}";
-			sepNavSelRange = "{1854, 0}";
-			sepNavVisRange = "{1564, 901}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 3587}}";
+			sepNavSelRange = "{165, 0}";
+			sepNavVisRange = "{0, 594}";
 			sepNavWindowFrame = "{{15, 244}, {1333, 629}}";
 		};
 	};
+	2F3CCFE70F77CFDB00DC189F /* background.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = background.png;
+		path = "/Users/fcanas/Projects/ColorPicker/trunk/UI Parts/background.png";
+		sourceTree = "<absolute>";
+	};
 	2F3CD0400F77E33D00DC189F /* Constants.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 544}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 612}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 578}}";
+			sepNavSelRange = "{76, 0}";
+			sepNavVisRange = "{0, 611}";
 		};
 	};
 	32CA4F630368D1EE00C91783 /* ColorPicker_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1181, 407}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 502}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 191}";
 		};
@@ -294,7 +301,7 @@
 		fRef = E778FCA41210B9D400646460 /* UIColor-HSVAdditions.m */;
 		name = "UIColor-HSVAdditions.m: 7";
 		rLen = 0;
-		rLoc = 131;
+		rLoc = 212;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 0;
@@ -337,7 +344,7 @@
 		isa = PBXTextBookmark;
 		fRef = 2F2683150F77AFB30041B7A6 /* GradientView.m */;
 		name = "GradientView.m: 1";
-		rLen = 2453;
+		rLen = 2477;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 718;
@@ -358,7 +365,7 @@
 		fRef = 2F2683250F77B0960041B7A6 /* ColorPickerView.m */;
 		name = "ColorPickerView.m: 219";
 		rLen = 0;
-		rLoc = 4943;
+		rLoc = 4967;
 		rType = 0;
 		vrLen = 655;
 		vrLoc = 0;
@@ -368,7 +375,7 @@
 		fRef = 2F2683140F77AFB30041B7A6 /* GradientView.h */;
 		name = "GradientView.h: 17";
 		rLen = 0;
-		rLoc = 300;
+		rLoc = 324;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 0;
@@ -376,15 +383,15 @@
 	E778FD0E1210C2BB00646460 /* StandinViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1095, 502}}";
-			sepNavSelRange = "{227, 0}";
-			sepNavVisRange = "{0, 468}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRange = "{0, 449}";
 		};
 	};
 	E778FD0F1210C2BB00646460 /* StandinViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1095, 1309}}";
-			sepNavSelRange = "{199, 0}";
-			sepNavVisRange = "{0, 1083}";
+			sepNavSelRange = "{120, 0}";
+			sepNavVisRange = "{0, 1064}";
 			sepNavWindowFrame = "{{107, 160}, {1333, 629}}";
 		};
 	};
@@ -403,7 +410,7 @@
 		fRef = 1D3623240D0F684500981E51 /* ColorPickerAppDelegate.h */;
 		name = "ColorPickerAppDelegate.h: 19";
 		rLen = 0;
-		rLoc = 465;
+		rLoc = 489;
 		rType = 0;
 		vrLen = 490;
 		vrLoc = 0;
@@ -413,7 +420,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ColorPickerAppDelegate.m */;
 		name = "ColorPickerAppDelegate.m: 21";
 		rLen = 0;
-		rLoc = 452;
+		rLoc = 476;
 		rType = 0;
 		vrLen = 632;
 		vrLoc = 0;
@@ -423,7 +430,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* ColorPickerViewController.h */;
 		name = "ColorPickerViewController.h: 32";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 844;
 		vrLoc = 3;
@@ -453,7 +460,7 @@
 		fRef = E778FD0E1210C2BB00646460 /* StandinViewController.h */;
 		name = "StandinViewController.h: 14";
 		rLen = 0;
-		rLoc = 461;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 255;
 		vrLoc = 0;
@@ -463,7 +470,7 @@
 		fRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */;
 		name = "StandinViewController.m: 18";
 		rLen = 0;
-		rLoc = 1564;
+		rLoc = 1545;
 		rType = 0;
 		vrLen = 907;
 		vrLoc = 50;
@@ -473,7 +480,7 @@
 		fRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */;
 		name = "StandinViewController.m: 18";
 		rLen = 0;
-		rLoc = 1564;
+		rLoc = 1545;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 47;
@@ -483,7 +490,7 @@
 		fRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */;
 		name = "StandinViewController.m: 10";
 		rLen = 0;
-		rLoc = 199;
+		rLoc = 180;
 		rType = 0;
 		vrLen = 947;
 		vrLoc = 47;
@@ -493,7 +500,7 @@
 		fRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */;
 		name = "StandinViewController.m: 32";
 		rLen = 0;
-		rLoc = 1127;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 1370;
 		vrLoc = 239;
@@ -503,7 +510,7 @@
 		fRef = E778FD0E1210C2BB00646460 /* StandinViewController.h */;
 		name = "StandinViewController.h: 16";
 		rLen = 0;
-		rLoc = 406;
+		rLoc = 387;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -513,7 +520,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* ColorPickerViewController.h */;
 		name = "ColorPickerViewController.h: 32";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 54;
@@ -533,7 +540,7 @@
 		fRef = 2F2683240F77B0960041B7A6 /* ColorPickerView.h */;
 		name = "ColorPickerView.h: 22";
 		rLen = 0;
-		rLoc = 580;
+		rLoc = 604;
 		rType = 0;
 		vrLen = 698;
 		vrLoc = 382;
@@ -544,7 +551,7 @@
 		fRef = 2F2683250F77B0960041B7A6 /* ColorPickerView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 74;
+		rLoc = 75;
 		rType = 1;
 	};
 	E778FD8F1210C87E00646460 /* PBXTextBookmark */ = {
@@ -552,7 +559,7 @@
 		fRef = 2F2683250F77B0960041B7A6 /* ColorPickerView.m */;
 		name = "ColorPickerView.m: 75";
 		rLen = 0;
-		rLoc = 1854;
+		rLoc = 1878;
 		rType = 0;
 		vrLen = 901;
 		vrLoc = 1564;
@@ -563,7 +570,7 @@
 		fRef = 2F2683250F77B0960041B7A6 /* ColorPickerView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 96;
+		rLoc = 97;
 		rType = 1;
 	};
 	E778FD971210C91D00646460 /* PBXTextBookmark */ = {
@@ -571,7 +578,7 @@
 		fRef = 2F2683250F77B0960041B7A6 /* ColorPickerView.m */;
 		name = "ColorPickerView.m: 97";
 		rLen = 0;
-		rLoc = 2512;
+		rLoc = 2536;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 2201;
@@ -581,7 +588,7 @@
 		fRef = 2F2683250F77B0960041B7A6 /* ColorPickerView.m */;
 		name = "ColorPickerView.m: 97";
 		rLen = 0;
-		rLoc = 2512;
+		rLoc = 2536;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 2201;
@@ -591,7 +598,7 @@
 		fRef = 2F2683250F77B0960041B7A6 /* ColorPickerView.m */;
 		name = "ColorPickerView.m: 75";
 		rLen = 0;
-		rLoc = 1854;
+		rLoc = 1878;
 		rType = 0;
 		vrLen = 901;
 		vrLoc = 1564;
@@ -601,7 +608,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ColorPickerAppDelegate.m */;
 		name = "ColorPickerAppDelegate.m: 21";
 		rLen = 0;
-		rLoc = 452;
+		rLoc = 476;
 		rType = 0;
 		vrLen = 582;
 		vrLoc = 51;
@@ -631,7 +638,7 @@
 		fRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */;
 		name = "StandinViewController.m: 32";
 		rLen = 0;
-		rLoc = 1127;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 1331;
 		vrLoc = 278;
@@ -641,7 +648,7 @@
 		fRef = E778FD0E1210C2BB00646460 /* StandinViewController.h */;
 		name = "StandinViewController.h: 10";
 		rLen = 0;
-		rLoc = 227;
+		rLoc = 208;
 		rType = 0;
 		vrLen = 468;
 		vrLoc = 0;
@@ -651,7 +658,7 @@
 		fRef = E778FD0E1210C2BB00646460 /* StandinViewController.h */;
 		name = "StandinViewController.h: 10";
 		rLen = 0;
-		rLoc = 227;
+		rLoc = 208;
 		rType = 0;
 		vrLen = 468;
 		vrLoc = 0;
@@ -661,7 +668,7 @@
 		fRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */;
 		name = "StandinViewController.m: 9";
 		rLen = 0;
-		rLoc = 199;
+		rLoc = 180;
 		rType = 0;
 		vrLen = 1083;
 		vrLoc = 0;
@@ -671,7 +678,7 @@
 		fRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */;
 		name = "StandinViewController.m: 9";
 		rLen = 0;
-		rLoc = 199;
+		rLoc = 180;
 		rType = 0;
 		vrLen = 1083;
 		vrLoc = 0;

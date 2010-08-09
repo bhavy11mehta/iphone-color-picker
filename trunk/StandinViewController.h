@@ -3,7 +3,7 @@
 //  ColorPicker
 //
 //  Created by Fabián Cañas on 8/9/10.
-//  Copyright 2010 University of Colorado, Boulder. All rights reserved.
+//  Copyright 2010 Fabián Cañas. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
