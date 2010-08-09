@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class ColorPickerViewController;
+@class StandinViewController;
 
 @interface ColorPickerAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    ColorPickerViewController *viewController;
+    StandinViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet ColorPickerViewController *viewController;
+@property (nonatomic, retain) IBOutlet StandinViewController *viewController;
 
 @end
 
