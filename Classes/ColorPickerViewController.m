@@ -9,6 +9,7 @@
 
 #import "ColorPickerViewController.h"
 #import "ColorPickerView.h"
+#import "UIColor-HSVAdditions.h"
 
 @implementation ColorPickerViewController
 
@@ -22,22 +23,20 @@ NSString *keyForBright = @"bright";
 - (void)viewDidLoad {
     [super viewDidLoad];
 	NSUserDefaults *saveColors = [NSUserDefaults standardUserDefaults];
-	ColorPickerView *theView = (ColorPickerView*) [self view];
+	if (defaultsKey==nil) {
+        defaultsKey = @"";
+        NSLog(@"problem 0 in ColorPickerViewController.viewDidLoad");
+    }
+    
+    NSData *colorData= [saveColors objectForKey:defaultsKey];
+    UIColor *color;
+    if (colorData!=nil) {
+        color = (UIColor*)[NSKeyedUnarchiver unarchiveObjectWithData:colorData];
+    }
+    
+    ColorPickerView *theView = (ColorPickerView*) [self view];
 	
-	if ([saveColors floatForKey:keyForHue])
-		[theView setCurrentHue:[saveColors floatForKey:keyForHue]];
-	else
-		[theView setCurrentHue:0.5];
-	
-	if ([saveColors floatForKey:keyForSat])
-		[theView setCurrentHue:[saveColors floatForKey:keyForSat]];
-	else
-		[theView setCurrentSaturation:0.5];
-	
-	if ([saveColors floatForKey:keyForBright])
-		[theView setCurrentHue:[saveColors floatForKey:keyForBright]];
-	else
-		[theView setCurrentBrightness:0.5];
+    [theView setColor:color];
 }
 
 - (void) viewWillDisappear :(BOOL)animated { 
