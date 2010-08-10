@@ -233,6 +233,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -277,6 +279,36 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>9</integer>
+									<integer>1</integer>
+									<integer>0</integer>
+								</array>
+								<array>
+									<integer>10</integer>
+									<integer>1</integer>
+									<integer>0</integer>
+								</array>
+								<array>
+									<integer>13</integer>
+									<integer>1</integer>
+									<integer>0</integer>
+								</array>
+								<array>
+									<integer>14</integer>
+									<integer>1</integer>
+									<integer>0</integer>
+								</array>
+								<array>
+									<integer>15</integer>
+									<integer>1</integer>
+									<integer>0</integer>
+								</array>
+								<array>
+									<integer>16</integer>
+									<integer>1</integer>
+									<integer>0</integer>
+								</array>
+								<array>
 									<integer>17</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -313,14 +345,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Constants.h</string>
+								<string>ColorPickerView.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +358,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Constants.h</string>
+										<string>ColorPickerView.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E778FE571210DA0F00646460</string>
+										<string>E778FE5A1210DB4200646460</string>
 										<key>history</key>
 										<array>
 											<string>E778FCAA1210BAAC00646460</string>
@@ -354,10 +384,10 @@
 											<string>E778FE0E1210D4B900646460</string>
 											<string>E778FE0F1210D4B900646460</string>
 											<string>E778FE131210D4FE00646460</string>
-											<string>E778FE311210D78300646460</string>
 											<string>E778FE3F1210D8FE00646460</string>
 											<string>E778FE401210D8FE00646460</string>
-											<string>E778FE411210D8FE00646460</string>
+											<string>E778FE581210DB4200646460</string>
+											<string>E778FE591210DB4200646460</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
