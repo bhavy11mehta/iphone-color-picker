@@ -277,8 +277,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>27</integer>
-									<integer>21</integer>
+									<integer>17</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -320,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ColorPickerView.m</string>
+								<string>Constants.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,25 +328,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ColorPickerView.m</string>
+										<string>Constants.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E778FE361210D7D700646460</string>
+										<string>E778FE571210DA0F00646460</string>
 										<key>history</key>
 										<array>
 											<string>E778FCAA1210BAAC00646460</string>
 											<string>E778FCAB1210BAAC00646460</string>
 											<string>E778FCAC1210BAAC00646460</string>
 											<string>E778FCC21210BB4400646460</string>
-											<string>E778FDB11210CCFE00646460</string>
 											<string>E778FDB21210CCFE00646460</string>
 											<string>E778FDB31210CCFE00646460</string>
 											<string>E778FDB41210CCFE00646460</string>
 											<string>E778FDB51210CCFE00646460</string>
 											<string>E778FDB61210CCFE00646460</string>
 											<string>E778FDB71210CCFE00646460</string>
-											<string>E778FDB81210CCFE00646460</string>
 											<string>E778FDB91210CCFE00646460</string>
 											<string>E778FDBB1210CCFE00646460</string>
 											<string>E778FDBC1210CCFE00646460</string>
@@ -357,7 +355,9 @@
 											<string>E778FE0F1210D4B900646460</string>
 											<string>E778FE131210D4FE00646460</string>
 											<string>E778FE311210D78300646460</string>
-											<string>E778FE321210D78300646460</string>
+											<string>E778FE3F1210D8FE00646460</string>
+											<string>E778FE401210D8FE00646460</string>
+											<string>E778FE411210D8FE00646460</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
