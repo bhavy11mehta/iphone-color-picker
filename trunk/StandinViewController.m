@@ -34,30 +34,33 @@
     [colorPicker dismissModalViewControllerAnimated:YES];
 }
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-*/
+    
+    // Retrieve saved user default for the color swatch - Must be archived before stored as a preference
+    // Retrieve data object
+    NSData *colorData = [[NSUserDefaults standardUserDefaults] objectForKey:@"SwatchColor"];
+    UIColor *color;
+    if (colorData!=nil) {
+        // If the data object is valid, unarchive the color we've stored in it.
+        color = (UIColor *)[NSKeyedUnarchiver unarchiveObjectWithData:colorData];
+    } else {
+        // If the data's not valid, the user default wasn't set, or there was an error retrieving the default value.
+        
+        // This is not the Apple-sanctioned way to set up defaults,
+        // I've done it this way to consolidate initial defaults with error-checking code.
+        
+        // Create a new color (gray)
+        color = [UIColor grayColor];
+        // Archive the color into an NSData object
+        colorData = [NSKeyedArchiver archivedDataWithRootObject:color];
+        // Store the NSData into the user defaults
+        [[NSUserDefaults standardUserDefaults] setObject:colorData forKey:@"SwatchColor"];
+    }
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    // Set the swatch color
+    colorSwatch.backgroundColor = color;
 }
-*/
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -69,7 +72,7 @@
 - (void)viewDidUnload {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    colorSwatch = nil;
 }
 
 
