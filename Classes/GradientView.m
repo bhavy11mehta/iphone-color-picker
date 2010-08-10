@@ -91,7 +91,6 @@ CGPoint demoLGEnd(CGRect bounds)
 	CGContextSaveGState(context);
 }
 
-
 - (void)dealloc {
 	CGGradientRelease(gradient);
     theColor = nil;

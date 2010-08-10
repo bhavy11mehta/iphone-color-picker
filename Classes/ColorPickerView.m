@@ -14,10 +14,6 @@
 
 @implementation ColorPickerView
 
-@synthesize backgroundImage;
-@synthesize closeButtonImage;
-@synthesize nextButtonImage;
-
 @synthesize currentHue;
 @synthesize currentSaturation;
 @synthesize currentBrightness;
@@ -33,7 +29,7 @@
 	if (self = [super initWithCoder:coder]) {
 		
 		gradientView = [[GradientView alloc] initWithFrame:kBrightnessGradientPlacent];
-		[gradientView setTheColor:[UIColor yellowColor]];
+		//[gradientView setTheColor:[UIColor yellowColor]];
 		[self addSubview:gradientView];
 		[self sendSubviewToBack:gradientView];
 		[self setMultipleTouchEnabled:YES];
@@ -55,15 +51,20 @@
     currentHue = color.hue;
     currentSaturation = color.saturation;
     currentBrightness = color.brightness;
-    CGPoint hueSatPosition, brightnessPosition;
+    CGPoint hueSatPosition;
+    CGPoint brightnessPosition;
     hueSatPosition.x = (currentHue*kMatrixWidth)+kXAxisOffset;
     hueSatPosition.y = (1.0-currentSaturation)*kMatrixHeight+kYAxisOffset;
-    //brightnessPosition.x = (1.0+kBrightnessEpsilon-currentBrightness)*gradientView.frame.size.width;
-    brightnessPosition.x = (kBrightnessEpsilon+currentBrightness)*gradientView.frame.size.width;
+    brightnessPosition.x = (1.0+kBrightnessEpsilon-currentBrightness)*gradientView.frame.size.width;
+    
+    // Original input brightness code (from down below)
+    // currentBrightness = 1.0-(position.x/gradientView.frame.size.width) + kBrightnessEpsilon;
+    
     brightnessPosition.y = kBrightBarYCenter;
     [gradientView setTheColor:color];
-    [self animateView:crossHairs toPosition:hueSatPosition];
-    [self animateView:brightnessBar toPosition:brightnessPosition];
+    [showColor setBackgroundColor:currentColor];
+    crossHairs.center = hueSatPosition;
+    brightnessBar.center = brightnessPosition;
 } 
 
 
@@ -163,9 +164,9 @@
 	
 	//crossHairs.center = CGPointMake(x,y);
 	
-	x = currentBrightness * gradientView.frame.size.width;
+	//x = currentBrightness * gradientView.frame.size.width;
 	
-	brightnessBar.center = CGPointMake(x,kBrightBarYCenter);
+	//brightnessBar.center = CGPointMake(x,kBrightBarYCenter);
 	
 	[gradientView setupGradient];
 	[gradientView setNeedsDisplay];

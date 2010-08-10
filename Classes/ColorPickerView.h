@@ -13,10 +13,6 @@
 @class GradientView;
 @interface ColorPickerView : UIView {
 	GradientView *gradientView;
-	UIImage *backgroundImage; //Image that will sit in back on the view
-	UIImage *closeButtonImage; //Image for close button
-	UIImage *nextButtonImage; //Image for next button
-	IBOutlet UIImageView *backgroundImageView;
 	IBOutlet UIView *showColor;
 	IBOutlet UIImageView *crossHairs;
 	IBOutlet UIImageView *brightnessBar;
@@ -30,10 +26,6 @@
 	
 	UIColor *currentColor;
 }
-
-@property (nonatomic,retain) UIImage *backgroundImage;
-@property (nonatomic,retain) UIImage *closeButtonImage;
-@property (nonatomic,retain) UIImage *nextButtonImage;
 
 @property (readwrite) CGFloat currentBrightness;
 @property (readwrite) CGFloat currentHue;
