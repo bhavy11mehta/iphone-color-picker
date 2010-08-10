@@ -29,9 +29,6 @@
 	CGFloat currentSaturation;
 	
 	UIColor *currentColor;
-	
-	
-	
 }
 
 @property (nonatomic,retain) UIImage *backgroundImage;
@@ -43,5 +40,7 @@
 @property (readwrite) CGFloat currentSaturation;
 
 - (UIColor *) getColorShown;
+- (void) setColor:(UIColor *)color;
+- (void) animateView:(UIImageView *)theView toPosition:(CGPoint) thePosition;
 
 @end

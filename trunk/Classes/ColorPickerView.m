@@ -10,6 +10,7 @@
 #import "ColorPickerView.h"
 #import "GradientView.h"
 #import "Constants.h"
+#import "UIColor-HSVAdditions.h"
 
 @implementation ColorPickerView
 
@@ -45,35 +46,25 @@
 		currentBrightness = kInitialBrightness;
 		
 		currentColor = [[UIColor alloc]init];
-
-		
 	}
 	return self;
-	
 }
 
-- (NSString *) hexStringFromColor  : (CGColorRef) theColor
-{  
-   
-    const CGFloat *c = CGColorGetComponents(theColor);  
-	CGFloat r, g, b;  
-	r = c[0];  
-	g = c[1];  
-	b = c[2];  
-       
-     // Fix range if needed  
-	if (r < 0.0f) r = 0.0f;  
-	if (g < 0.0f) g = 0.0f;  
-	if (b < 0.0f) b = 0.0f;  
-       
-	if (r > 1.0f) r = 1.0f;  
-	if (g > 1.0f) g = 1.0f;  
-	if (b > 1.0f) b = 1.0f;  
-       
-     // Convert to hex string between 0x00 and 0xFF  
-	return [NSString stringWithFormat:@"#%02X%02X%02X",  
-			(int)(r * 255), (int)(g * 255), (int)(b * 255)];  
-}  
+- (void) setColor:(UIColor *)color {
+    currentColor = color;
+    currentHue = color.hue;
+    currentSaturation = color.saturation;
+    currentBrightness = color.brightness;
+    CGPoint hueSatPosition, brightnessPosition;
+    hueSatPosition.x = (currentHue*kMatrixWidth)+kXAxisOffset;
+    hueSatPosition.y = (1.0-currentSaturation)*kMatrixHeight+kYAxisOffset;
+    //brightnessPosition.x = (1.0+kBrightnessEpsilon-currentBrightness)*gradientView.frame.size.width;
+    brightnessPosition.x = (kBrightnessEpsilon+currentBrightness)*gradientView.frame.size.width;
+    brightnessPosition.y = kBrightBarYCenter;
+    [gradientView setTheColor:color];
+    [self animateView:crossHairs toPosition:hueSatPosition];
+    [self animateView:brightnessBar toPosition:brightnessPosition];
+} 
 
 
 - (void) updateHueSatWithMovement : (CGPoint) position {
@@ -103,7 +94,6 @@
 	
 	currentBrightness = 1.0-(position.x/gradientView.frame.size.width) + kBrightnessEpsilon;
 	
-	//printf("Brightness Of the touch is : %f\n",currentBrightness);
 	UIColor *forColorView  = [UIColor colorWithHue:currentHue 
 										saturation:currentSaturation 
 										brightness:currentBrightness
@@ -112,10 +102,7 @@
 	[showColor setBackgroundColor:forColorView];
 }
 
-
-
 //Touch parts : 
-
 
 // Scales down the view and moves it to the new position. 
 - (void)animateView:(UIImageView *)theView toPosition:(CGPoint) thePosition
@@ -133,24 +120,18 @@
 {
 	if (CGRectContainsPoint(colorMatrixFrame,position))
 	{
-		//NSLog(@"Color!");
-		//printf("X Of the touch in grad view is : %f\n",position.x);
-//		printf("Y Of the touch in grad view is : %f\n",position.y);
 		[self animateView:crossHairs toPosition: position];
 		[self updateHueSatWithMovement:position];
 		
 	}
 	else if (CGRectContainsPoint(gradientView.frame, position))
 	{
-		//NSLog(@"Bright!");
 		CGPoint newPos = CGPointMake(position.x,kBrightBarYCenter);
 		[self animateView:brightnessBar toPosition: newPos];
 		[self updateBrightnessWithMovement:position];
 	}
 	else
 	{
-//		printf("X Of the touch in grad view is : %f\n",position.x);
-//		printf("Y Of the touch in grad view is : %f\n",position.y);
 	}
 	
 }
@@ -162,8 +143,6 @@
 	
 	for (UITouch *touch in touches) {
 		[self dispatchTouchEvent:[touch locationInView:self]];
-	//	printf("X IS %f\n",[touch locationInView:self].x);
-//		printf("Y IS %f\n",[touch locationInView:self].y);
 		}	
 }
 
@@ -195,7 +174,6 @@
 }
 
 - (UIColor *) getColorShown {
-//	NSLog(@"Are we here ? ");
 	return [UIColor colorWithHue:currentHue saturation:currentSaturation brightness:currentBrightness alpha:1.0];
 }
 
