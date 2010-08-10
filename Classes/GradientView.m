@@ -50,6 +50,9 @@ CGPoint demoLGEnd(CGRect bounds)
 	
 	CGColorSpaceRef rgb = CGColorSpaceCreateDeviceRGB();
 	
+    if (gradient!=nil) {
+        CGGradientRelease(gradient);
+    }
 	gradient = CGGradientCreateWithColorComponents(rgb, colors, NULL, sizeof(colors)/(sizeof(colors[0])*4));
 	CGColorSpaceRelease(rgb);
 	
