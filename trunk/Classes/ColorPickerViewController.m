@@ -39,16 +39,9 @@ NSString *keyForBright = @"bright";
     [theView setColor:color];
 }
 
-- (void) viewWillDisappear :(BOOL)animated { 
-
-	NSUserDefaults *saveColors = [NSUserDefaults standardUserDefaults];
-	
-	ColorPickerView *theView = (ColorPickerView*) [self view];
-	
-	[saveColors setFloat:[theView currentHue] forKey:keyForHue];
-	[saveColors setFloat:[theView currentSaturation] forKey:keyForSat];
-	[saveColors setFloat:[theView currentBrightness] forKey:keyForBright];
-}
+//- (void) viewWillDisappear :(BOOL)animated { 
+//
+//}
 
 - (UIColor *) getSelectedColor {
 	return [(ColorPickerView *) [self view] getColorShown];
