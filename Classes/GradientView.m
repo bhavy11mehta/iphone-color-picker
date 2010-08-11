@@ -47,7 +47,6 @@ CGPoint demoLGEnd(CGRect bounds)
 		0.0/255.0,0.0/255.0,0.0/255.0,1.0, //BLACK
 	};
 	
-	
 	CGColorSpaceRef rgb = CGColorSpaceCreateDeviceRGB();
 	
     if (gradient!=nil) {
@@ -56,13 +55,11 @@ CGPoint demoLGEnd(CGRect bounds)
 	gradient = CGGradientCreateWithColorComponents(rgb, colors, NULL, sizeof(colors)/(sizeof(colors[0])*4));
 	CGColorSpaceRelease(rgb);
 	
-	
 }
 
 
 - (void)drawRect:(CGRect)rect {
     // Drawing code
-
 	
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	
@@ -99,6 +96,5 @@ CGPoint demoLGEnd(CGRect bounds)
     theColor = nil;
     [super dealloc];
 }
-
 
 @end

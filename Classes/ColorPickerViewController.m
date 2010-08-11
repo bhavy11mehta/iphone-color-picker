@@ -15,9 +15,6 @@
 
 @synthesize delegate, defaultsKey, chooseButton;
 
-NSString *keyForHue = @"hue";
-NSString *keyForSat = @"sat";
-NSString *keyForBright = @"bright";
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -25,7 +22,6 @@ NSString *keyForBright = @"bright";
 	NSUserDefaults *saveColors = [NSUserDefaults standardUserDefaults];
 	if (defaultsKey==nil) {
         defaultsKey = @"";
-        NSLog(@"problem 0 in ColorPickerViewController.viewDidLoad");
     }
     
     NSData *colorData= [saveColors objectForKey:defaultsKey];

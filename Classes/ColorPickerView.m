@@ -29,7 +29,6 @@
 	if (self = [super initWithCoder:coder]) {
 		
 		gradientView = [[GradientView alloc] initWithFrame:kBrightnessGradientPlacent];
-		//[gradientView setTheColor:[UIColor yellowColor]];
 		[self addSubview:gradientView];
 		[self sendSubviewToBack:gradientView];
 		[self setMultipleTouchEnabled:YES];
@@ -56,10 +55,7 @@
     hueSatPosition.x = (currentHue*kMatrixWidth)+kXAxisOffset;
     hueSatPosition.y = (1.0-currentSaturation)*kMatrixHeight+kYAxisOffset;
     brightnessPosition.x = (1.0+kBrightnessEpsilon-currentBrightness)*gradientView.frame.size.width;
-    
-    // Original input brightness code (from down below)
-    // currentBrightness = 1.0-(position.x/gradientView.frame.size.width) + kBrightnessEpsilon;
-    
+        
     brightnessPosition.y = kBrightBarYCenter;
     [gradientView setTheColor:color];
     [showColor setBackgroundColor:currentColor];
@@ -159,7 +155,7 @@
 
 - (void)drawRect:(CGRect)rect {
     
-	CGFloat x = currentHue * kMatrixWidth;
+	//CGFloat x = currentHue * kMatrixWidth;
 	//CGFloat y = currentSaturation * kMatrixHeight;
 	
 	//crossHairs.center = CGPointMake(x,y);
