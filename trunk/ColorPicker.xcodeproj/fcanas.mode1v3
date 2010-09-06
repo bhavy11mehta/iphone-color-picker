@@ -233,6 +233,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -277,8 +279,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
-									<integer>4</integer>
+									<integer>12</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -314,14 +315,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>UIColor-Expanded.m</string>
+								<string>ColorPickerAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>UIColor-Expanded.m</string>
+										<string>ColorPickerAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E7B1008812315A5600340C1C</string>
+										<string>E7E88EF81235956E0025A420</string>
 										<key>history</key>
 										<array>
 											<string>E778FCC21210BB4400646460</string>
@@ -344,22 +343,22 @@
 											<string>E778FE401210D8FE00646460</string>
 											<string>E7B1007612315A5600340C1C</string>
 											<string>E7B1007712315A5600340C1C</string>
-											<string>E7B1007812315A5600340C1C</string>
 											<string>E7B1007912315A5600340C1C</string>
 											<string>E7B1007A12315A5600340C1C</string>
 											<string>E7B1007B12315A5600340C1C</string>
 											<string>E7B1007C12315A5600340C1C</string>
-											<string>E7B1007D12315A5600340C1C</string>
 											<string>E7B1007E12315A5600340C1C</string>
-											<string>E7B1007F12315A5600340C1C</string>
-											<string>E7B1008012315A5600340C1C</string>
-											<string>E7B1008112315A5600340C1C</string>
-											<string>E7B1008212315A5600340C1C</string>
-											<string>E7B1008312315A5600340C1C</string>
-											<string>E7B1008412315A5600340C1C</string>
-											<string>E7B1008512315A5600340C1C</string>
-											<string>E7B1008612315A5600340C1C</string>
-											<string>E7B1008712315A5600340C1C</string>
+											<string>E7E88EED1235956E0025A420</string>
+											<string>E7E88EEE1235956E0025A420</string>
+											<string>E7E88EEF1235956E0025A420</string>
+											<string>E7E88EF01235956E0025A420</string>
+											<string>E7E88EF11235956E0025A420</string>
+											<string>E7E88EF21235956E0025A420</string>
+											<string>E7E88EF31235956E0025A420</string>
+											<string>E7E88EF41235956E0025A420</string>
+											<string>E7E88EF51235956E0025A420</string>
+											<string>E7E88EF61235956E0025A420</string>
+											<string>E7E88EF71235956E0025A420</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -371,14 +370,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1156, 599}}</string>
+								<string>{{0, 0}, {1156, 589}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 50 1440 828 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>599pt</string>
+							<string>589pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -391,14 +390,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 604}, {1156, 183}}</string>
+								<string>{{0, 594}, {1156, 193}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 50 1440 828 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>183pt</string>
+							<string>193pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -417,9 +416,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E7B1006D1231591400340C1C</string>
+				<string>E7E88EC6123583DD0025A420</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E7B1006E1231591400340C1C</string>
+				<string>E7E88EC7123583DD0025A420</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -639,7 +638,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E778FC9D1210B99400646460</string>
-				<string>E7B1006F1231591400340C1C</string>
+				<string>E7E88EC8123583DD0025A420</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -761,13 +760,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>E7B100701231591400340C1C</string>
+				<string>E7E88EF91235956E0025A420</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>E7B100711231591400340C1C</string>
-				<string>E7B100721231591400340C1C</string>
-				<string>E7B100731231591400340C1C</string>
-				<string>E7B100741231591400340C1C</string>
-				<string>E7B100751231591400340C1C</string>
+				<string>E7E88EFA1235956E0025A420</string>
+				<string>E7E88EFB1235956E0025A420</string>
+				<string>E7E88EFC1235956E0025A420</string>
+				<string>E7E88EFD1235956E0025A420</string>
+				<string>E7E88EFE1235956E0025A420</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -929,7 +928,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>E7272A1F12143BD700001827</string>
+				<string>E7B1008D123167E700340C1C</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
