@@ -69,7 +69,10 @@
     } else {
         // If the data's not valid, the user default wasn't set, or there was an error retrieving the default value.
         
-        // This is not the Apple-sanctioned way to set up defaults,
+        // This is not the Apple-sanctioned way to set up defaults, but it _is_ permissible
+        // The correct way to do it would be to register 'fall-back' defaults when the app launches for the first time,
+        // usually via the app delegate.
+        //
         // I've done it this way to consolidate initial defaults with error-checking code.
         
         // Create a new color (gray)
