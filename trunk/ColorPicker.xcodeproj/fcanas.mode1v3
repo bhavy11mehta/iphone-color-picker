@@ -279,8 +279,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -332,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E7E88EF81235956E0025A420</string>
+										<string>E78ACC8B123810F400BC5AA4</string>
 										<key>history</key>
 										<array>
 											<string>E778FCC21210BB4400646460</string>
@@ -358,7 +356,7 @@
 											<string>E7E88EF41235956E0025A420</string>
 											<string>E7E88EF51235956E0025A420</string>
 											<string>E7E88EF61235956E0025A420</string>
-											<string>E7E88EF71235956E0025A420</string>
+											<string>E7E88EF81235956E0025A420</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -370,14 +368,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1156, 589}}</string>
+								<string>{{0, 0}, {1156, 584}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 50 1440 828 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>589pt</string>
+							<string>584pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -390,14 +388,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 594}, {1156, 193}}</string>
+								<string>{{0, 589}, {1156, 198}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 50 1440 828 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>193pt</string>
+							<string>198pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -416,9 +414,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E7E88EC6123583DD0025A420</string>
+				<string>E78ACC70123810B200BC5AA4</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E7E88EC7123583DD0025A420</string>
+				<string>E78ACC71123810B200BC5AA4</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -556,6 +554,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E778FC9D1210B99400646460</string>
 		<string>/Users/fcanas/Projects/ColorPicker/trunk/ColorPicker.xcodeproj</string>
@@ -638,7 +637,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E778FC9D1210B99400646460</string>
-				<string>E7E88EC8123583DD0025A420</string>
+				<string>E78ACC72123810B200BC5AA4</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -760,13 +759,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>E7E88EF91235956E0025A420</string>
+				<string>E78ACC73123810B200BC5AA4</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>E7E88EFA1235956E0025A420</string>
-				<string>E7E88EFB1235956E0025A420</string>
-				<string>E7E88EFC1235956E0025A420</string>
-				<string>E7E88EFD1235956E0025A420</string>
-				<string>E7E88EFE1235956E0025A420</string>
+				<string>E78ACC74123810B200BC5AA4</string>
+				<string>E78ACC75123810B200BC5AA4</string>
+				<string>E78ACC76123810B200BC5AA4</string>
+				<string>E78ACC77123810B200BC5AA4</string>
+				<string>E78ACC78123810B200BC5AA4</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -928,7 +927,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>E7B1008D123167E700340C1C</string>
+				<string>E78ACC79123810B200BC5AA4</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
