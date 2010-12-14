@@ -38,7 +38,12 @@
     ColorPickerViewController *colorPickerViewController = 
         [[ColorPickerViewController alloc] initWithNibName:@"ColorPickerViewController" bundle:nil];
     colorPickerViewController.delegate = self;
+#ifdef IPHONE_COLOR_PICKER_SAVE_DEFAULT
     colorPickerViewController.defaultsKey = @"SwatchColor";
+#else
+    // We re-use the current value set to the background of this demonstration view
+    colorPickerViewController.defaultsColor = colorSwatch.backgroundColor;
+#endif
     [self presentModalViewController:colorPickerViewController animated:YES];
     [colorPickerViewController release];
 }
@@ -46,12 +51,18 @@
 - (void)colorPickerViewController:(ColorPickerViewController *)colorPicker didSelectColor:(UIColor *)color {
     NSLog(@"Color: %d",color);
     
+#ifdef IPHONE_COLOR_PICKER_SAVE_DEFAULT
     NSData *colorData = [NSKeyedArchiver archivedDataWithRootObject:color];
     [[NSUserDefaults standardUserDefaults] setObject:colorData forKey:colorPicker.defaultsKey];
     
     if ([colorPicker.defaultsKey isEqualToString:@"SwatchColor"]) {
         colorSwatch.backgroundColor = color;
     }
+#else
+    // No storage & check, just assign back the color
+    colorSwatch.backgroundColor = color;
+#endif
+
         
     [colorPicker dismissModalViewControllerAnimated:YES];
 }
@@ -59,6 +70,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+#ifdef IPHONE_COLOR_PICKER_SAVE_DEFAULT
     // Retrieve saved user default for the color swatch - Must be archived before stored as a preference
     // Retrieve data object
     NSData *colorData = [[NSUserDefaults standardUserDefaults] objectForKey:@"SwatchColor"];
@@ -82,9 +94,15 @@
         // Store the NSData into the user defaults
         [[NSUserDefaults standardUserDefaults] setObject:colorData forKey:@"SwatchColor"];
     }
-
     // Set the swatch color
     colorSwatch.backgroundColor = color;
+#else
+    // Set some arbitrary default color
+    // Attention: This is not they way you should do it. Because everytime the ViewDidUnload
+    // the color information will be lost. It's just the easy way for demonstration purposes
+    colorSwatch.backgroundColor = [UIColor redColor];
+#endif
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -102,6 +120,7 @@
 
 
 - (void)dealloc {
+    [colorSwatch release];
     [super dealloc];
 }
 
