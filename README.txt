@@ -19,6 +19,8 @@ Usage of the ColorPickerViewController in your own project
        UIColor-Expanded.m
        UIColor-HSVAdditions.h
        UIColor-HSVAdditions.m
+       ColorSwatchView.m
+       ColorSwatchView.h
 
 2.) Now you can use the ColorPickerViewController
     See the file StandinViewController.m for example usage
