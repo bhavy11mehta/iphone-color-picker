@@ -4,29 +4,8 @@
 //
 //  Created by Gilly Dekel on 23/3/09.
 //  Extended by Fabián Cañas August 2010.
-//  Copyright 2010 Fabián Cañas. All rights reserved.
+//  Copyright 2010. All rights reserved.
 //
-//    Redistribution and use in source and binary forms, with or without
-//    modification, are permitted provided that the following conditions are met:
-//    * Redistributions of source code must retain the above copyright
-//    notice, this list of conditions and the following disclaimer.
-//    * Redistributions in binary form must reproduce the above copyright
-//    notice, this list of conditions and the following disclaimer in the
-//    documentation and/or other materials provided with the distribution.
-//    * Neither the name of the <organization> nor the
-//    names of its contributors may be used to endorse or promote products
-//    derived from this software without specific prior written permission.
-//
-//    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-//    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-//    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-//    DISCLAIMED. IN NO EVENT SHALL FABIAN CANAS BE LIABLE FOR ANY
-//    DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-//    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-//     LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-//    ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-//    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-//    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #import "ColorPickerView.h"
 #import "GradientView.h"
@@ -50,6 +29,7 @@
 	if (self = [super initWithCoder:coder]) {
 		
 		gradientView = [[GradientView alloc] initWithFrame:kBrightnessGradientPlacent];
+		//[gradientView setTheColor:[UIColor yellowColor]];
 		[self addSubview:gradientView];
 		[self sendSubviewToBack:gradientView];
 		[self setMultipleTouchEnabled:YES];
@@ -76,10 +56,15 @@
     hueSatPosition.x = (currentHue*kMatrixWidth)+kXAxisOffset;
     hueSatPosition.y = (1.0-currentSaturation)*kMatrixHeight+kYAxisOffset;
     brightnessPosition.x = (1.0+kBrightnessEpsilon-currentBrightness)*gradientView.frame.size.width;
-        
+    
+    // Original input brightness code (from down below)
+    // currentBrightness = 1.0-(position.x/gradientView.frame.size.width) + kBrightnessEpsilon;
+    
     brightnessPosition.y = kBrightBarYCenter;
     [gradientView setTheColor:color];
-    [showColor setBackgroundColor:currentColor];
+    //[showColor setBackgroundColor:currentColor];
+    showColor.swatchColor = currentColor;
+    
     crossHairs.center = hueSatPosition;
     brightnessBar.center = brightnessPosition;
 } 
@@ -104,7 +89,9 @@
 									   brightness:currentBrightness
 									   alpha:1.0];
 	
-	[showColor setBackgroundColor:currentColor];
+	//[showColor setBackgroundColor:currentColor];
+    showColor.swatchColor = currentColor;
+    [showColor setNeedsDisplay];
 }
 
 
@@ -117,7 +104,9 @@
 										brightness:currentBrightness
 											 alpha:1.0];
 	
-	[showColor setBackgroundColor:forColorView];
+	//[showColor setBackgroundColor:forColorView];
+    showColor.swatchColor = forColorView;
+    [showColor setNeedsDisplay];
 }
 
 //Touch parts : 
@@ -176,7 +165,7 @@
 
 - (void)drawRect:(CGRect)rect {
     
-	//CGFloat x = currentHue * kMatrixWidth;
+	CGFloat x = currentHue * kMatrixWidth;
 	//CGFloat y = currentSaturation * kMatrixHeight;
 	
 	//crossHairs.center = CGPointMake(x,y);
