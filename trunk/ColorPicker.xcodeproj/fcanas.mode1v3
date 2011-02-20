@@ -278,8 +278,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>29</integer>
-									<integer>23</integer>
+									<integer>21</integer>
+									<integer>20</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -321,7 +321,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ColorPickerViewController.h</string>
+								<string>ColorPicker_Prefix.pch</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +329,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ColorPickerViewController.h</string>
+										<string>ColorPicker_Prefix.pch</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E7BAB2511311B862001432E7</string>
+										<string>E7BAB2771311BBA4001432E7</string>
 										<key>history</key>
 										<array>
 											<string>E778FCC21210BB4400646460</string>
@@ -346,13 +346,9 @@
 											<string>E7B1007912315A5600340C1C</string>
 											<string>E7B1007A12315A5600340C1C</string>
 											<string>E7B1007B12315A5600340C1C</string>
-											<string>E7B1007C12315A5600340C1C</string>
 											<string>E7B1007E12315A5600340C1C</string>
 											<string>E7E88EED1235956E0025A420</string>
-											<string>E7E88EEE1235956E0025A420</string>
 											<string>E7E88EEF1235956E0025A420</string>
-											<string>E7E88EF61235956E0025A420</string>
-											<string>E7C63B6D12399A3800297964</string>
 											<string>E7C63BB912399F9D00297964</string>
 											<string>E7C63BE51239A4AC00297964</string>
 											<string>E7C63BE71239A4AC00297964</string>
@@ -361,8 +357,12 @@
 											<string>E7C63BFB1239A5DA00297964</string>
 											<string>E7C63BFC1239A5DA00297964</string>
 											<string>E7BAB22E1311B5A8001432E7</string>
-											<string>E7BAB2501311B862001432E7</string>
-											<string>E7BAB22F1311B5A8001432E7</string>
+											<string>E7BAB25E1311BB1F001432E7</string>
+											<string>E7BAB2601311BB1F001432E7</string>
+											<string>E7BAB2611311BB1F001432E7</string>
+											<string>E7BAB2751311BBA4001432E7</string>
+											<string>E7BAB2761311BBA4001432E7</string>
+											<string>E7BAB2721311BB84001432E7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -584,6 +584,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -606,8 +608,6 @@
 							<string>687pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

@@ -30,9 +30,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 1792}}";
-			sepNavSelRange = "{2284, 0}";
-			sepNavVisRange = "{0, 1145}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 1904}}";
+			sepNavSelRange = "{2265, 0}";
+			sepNavVisRange = "{1716, 1270}";
 			sepNavWindowFrame = "{{15, 244}, {1333, 629}}";
 		};
 	};
@@ -109,6 +109,26 @@
 			E7BAB2491311B7D9001432E7 /* PBXTextBookmark */ = E7BAB2491311B7D9001432E7 /* PBXTextBookmark */;
 			E7BAB2501311B862001432E7 /* PBXTextBookmark */ = E7BAB2501311B862001432E7 /* PBXTextBookmark */;
 			E7BAB2511311B862001432E7 /* PBXTextBookmark */ = E7BAB2511311B862001432E7 /* PBXTextBookmark */;
+			E7BAB2541311BAAD001432E7 /* PBXTextBookmark */ = E7BAB2541311BAAD001432E7 /* PBXTextBookmark */;
+			E7BAB2551311BAAD001432E7 /* PBXTextBookmark */ = E7BAB2551311BAAD001432E7 /* PBXTextBookmark */;
+			E7BAB2561311BAAD001432E7 /* PBXTextBookmark */ = E7BAB2561311BAAD001432E7 /* PBXTextBookmark */;
+			E7BAB2571311BAAD001432E7 /* PBXTextBookmark */ = E7BAB2571311BAAD001432E7 /* PBXTextBookmark */;
+			E7BAB25E1311BB1F001432E7 /* PBXTextBookmark */ = E7BAB25E1311BB1F001432E7 /* PBXTextBookmark */;
+			E7BAB25F1311BB1F001432E7 /* PBXTextBookmark */ = E7BAB25F1311BB1F001432E7 /* PBXTextBookmark */;
+			E7BAB2601311BB1F001432E7 /* PBXTextBookmark */ = E7BAB2601311BB1F001432E7 /* PBXTextBookmark */;
+			E7BAB2611311BB1F001432E7 /* PBXTextBookmark */ = E7BAB2611311BB1F001432E7 /* PBXTextBookmark */;
+			E7BAB2621311BB1F001432E7 /* PBXTextBookmark */ = E7BAB2621311BB1F001432E7 /* PBXTextBookmark */;
+			E7BAB2631311BB1F001432E7 /* PBXTextBookmark */ = E7BAB2631311BB1F001432E7 /* PBXTextBookmark */;
+			E7BAB2681311BB3A001432E7 /* PBXTextBookmark */ = E7BAB2681311BB3A001432E7 /* PBXTextBookmark */;
+			E7BAB2691311BB3A001432E7 /* XCBuildMessageTextBookmark */ = E7BAB2691311BB3A001432E7 /* XCBuildMessageTextBookmark */;
+			E7BAB26A1311BB3A001432E7 /* PBXTextBookmark */ = E7BAB26A1311BB3A001432E7 /* PBXTextBookmark */;
+			E7BAB26D1311BB43001432E7 /* PBXTextBookmark */ = E7BAB26D1311BB43001432E7 /* PBXTextBookmark */;
+			E7BAB2721311BB84001432E7 /* PBXTextBookmark */ = E7BAB2721311BB84001432E7 /* PBXTextBookmark */;
+			E7BAB2731311BB84001432E7 /* PBXTextBookmark */ = E7BAB2731311BB84001432E7 /* PBXTextBookmark */;
+			E7BAB2741311BB84001432E7 /* PBXTextBookmark */ = E7BAB2741311BB84001432E7 /* PBXTextBookmark */;
+			E7BAB2751311BBA4001432E7 /* PBXTextBookmark */ = E7BAB2751311BBA4001432E7 /* PBXTextBookmark */;
+			E7BAB2761311BBA4001432E7 /* PBXTextBookmark */ = E7BAB2761311BBA4001432E7 /* PBXTextBookmark */;
+			E7BAB2771311BBA4001432E7 /* PBXTextBookmark */ = E7BAB2771311BBA4001432E7 /* PBXTextBookmark */;
 			E7C63B6D12399A3800297964 = E7C63B6D12399A3800297964 /* PBXTextBookmark */;
 			E7C63B9012399A8C00297964 = E7C63B9012399A8C00297964 /* PBXTextBookmark */;
 			E7C63BB812399F9D00297964 = E7C63BB812399F9D00297964 /* PBXTextBookmark */;
@@ -131,9 +151,9 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 714}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 671}}";
 			sepNavSelRange = "{1689, 0}";
-			sepNavVisRange = "{0, 1754}";
+			sepNavVisRange = "{0, 1923}";
 		};
 	};
 	2F2683140F77AFB30041B7A6 /* GradientView.h */ = {
@@ -175,9 +195,9 @@
 	};
 	32CA4F630368D1EE00C91783 /* ColorPicker_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 663}}";
-			sepNavSelRange = "{1704, 0}";
-			sepNavVisRange = "{0, 1711}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 671}}";
+			sepNavSelRange = "{1940, 0}";
+			sepNavVisRange = "{0, 1940}";
 		};
 	};
 	8D1107310486CEB800E47090 /* Info.plist */ = {
@@ -265,16 +285,16 @@
 	};
 	E778FD0E1210C2BB00646460 /* StandinViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 680}}";
-			sepNavSelRange = "{89, 1576}";
-			sepNavVisRange = "{31, 1788}";
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 704}}";
+			sepNavSelRange = "{1729, 0}";
+			sepNavVisRange = "{31, 1939}";
 		};
 	};
 	E778FD0F1210C2BB00646460 /* StandinViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 1700}}";
-			sepNavSelRange = "{3435, 160}";
-			sepNavVisRange = "{2646, 1465}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 1936}}";
+			sepNavSelRange = "{2054, 0}";
+			sepNavVisRange = "{514, 2079}";
 			sepNavWindowFrame = "{{107, 160}, {1333, 629}}";
 		};
 	};
@@ -388,7 +408,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 71;
+		rLoc = 77;
 		rType = 1;
 	};
 	E7BAB2121311B40F001432E7 /* PBXTextBookmark */ = {
@@ -396,7 +416,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 72";
 		rLen = 0;
-		rLoc = 1877;
+		rLoc = 2144;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 1447;
@@ -406,7 +426,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 72";
 		rLen = 0;
-		rLoc = 1877;
+		rLoc = 2144;
 		rType = 0;
 		vrLen = 984;
 		vrLoc = 1449;
@@ -437,7 +457,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 71;
+		rLoc = 77;
 		rType = 1;
 	};
 	E7BAB2201311B4A4001432E7 /* PBXTextBookmark */ = {
@@ -445,7 +465,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 72";
 		rLen = 0;
-		rLoc = 1877;
+		rLoc = 2144;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 1447;
@@ -475,7 +495,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 72";
 		rLen = 0;
-		rLoc = 1877;
+		rLoc = 2144;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 0;
@@ -485,7 +505,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 84";
 		rLen = 0;
-		rLoc = 2284;
+		rLoc = 2612;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 1501;
@@ -495,7 +515,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 72";
 		rLen = 0;
-		rLoc = 1877;
+		rLoc = 2144;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 1447;
@@ -505,7 +525,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 72";
 		rLen = 0;
-		rLoc = 1877;
+		rLoc = 2144;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 1447;
@@ -515,7 +535,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 84";
 		rLen = 0;
-		rLoc = 2284;
+		rLoc = 2612;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 1501;
@@ -525,7 +545,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 84";
 		rLen = 0;
-		rLoc = 2284;
+		rLoc = 2612;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 1501;
@@ -535,7 +555,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 84";
 		rLen = 0;
-		rLoc = 2284;
+		rLoc = 2612;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 1501;
@@ -545,7 +565,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 84";
 		rLen = 0;
-		rLoc = 2284;
+		rLoc = 2612;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 1501;
@@ -555,7 +575,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 72";
 		rLen = 0;
-		rLoc = 1877;
+		rLoc = 2144;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 1447;
@@ -565,7 +585,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 84";
 		rLen = 0;
-		rLoc = 2284;
+		rLoc = 2612;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 1501;
@@ -575,7 +595,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 84";
 		rLen = 0;
-		rLoc = 2284;
+		rLoc = 2612;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 0;
@@ -588,6 +608,205 @@
 		rLoc = 1047;
 		rType = 0;
 		vrLen = 1220;
+		vrLoc = 0;
+	};
+	E7BAB2541311BAAD001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
+		name = "ColorPickerViewController.m: 72";
+		rLen = 0;
+		rLoc = 2144;
+		rType = 0;
+		vrLen = 1211;
+		vrLoc = 1447;
+	};
+	E7BAB2551311BAAD001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */;
+		name = "StandinViewController.m: 42";
+		rLen = 0;
+		rLoc = 2054;
+		rType = 0;
+		vrLen = 2006;
+		vrLoc = 663;
+	};
+	E7BAB2561311BAAD001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E778FD0E1210C2BB00646460 /* StandinViewController.h */;
+		name = "StandinViewController.h: 33";
+		rLen = 0;
+		rLoc = 1729;
+		rType = 0;
+		vrLen = 1963;
+		vrLoc = 47;
+	};
+	E7BAB2571311BAAD001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E778FD0E1210C2BB00646460 /* StandinViewController.h */;
+		name = "StandinViewController.h: 33";
+		rLen = 0;
+		rLoc = 1729;
+		rType = 0;
+		vrLen = 1939;
+		vrLoc = 31;
+	};
+	E7BAB25E1311BB1F001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ColorPickerViewController.h */;
+		name = "ColorPickerViewController.h: 39";
+		rLen = 39;
+		rLoc = 1047;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 0;
+	};
+	E7BAB25F1311BB1F001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 29";
+		rLen = 0;
+		rLoc = 1689;
+		rType = 0;
+		vrLen = 1923;
+		vrLoc = 0;
+	};
+	E7BAB2601311BB1F001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E778FD0E1210C2BB00646460 /* StandinViewController.h */;
+		name = "StandinViewController.h: 33";
+		rLen = 0;
+		rLoc = 1729;
+		rType = 0;
+		vrLen = 2005;
+		vrLoc = 0;
+	};
+	E7BAB2611311BB1F001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E778FD0F1210C2BB00646460 /* StandinViewController.m */;
+		name = "StandinViewController.m: 42";
+		rLen = 0;
+		rLoc = 2054;
+		rType = 0;
+		vrLen = 2079;
+		vrLoc = 514;
+	};
+	E7BAB2621311BB1F001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ColorPicker_Prefix.pch */;
+		name = "ColorPicker_Prefix.pch: 30";
+		rLen = 0;
+		rLoc = 1704;
+		rType = 0;
+		vrLen = 1899;
+		vrLoc = 0;
+	};
+	E7BAB2631311BB1F001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ColorPicker_Prefix.pch */;
+		name = "ColorPicker_Prefix.pch: 41";
+		rLen = 0;
+		rLoc = 1940;
+		rType = 0;
+		vrLen = 1940;
+		vrLoc = 0;
+	};
+	E7BAB2681311BB3A001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E778FD0E1210C2BB00646460 /* StandinViewController.h */;
+		name = "StandinViewController.h: 33";
+		rLen = 0;
+		rLoc = 1729;
+		rType = 0;
+		vrLen = 1939;
+		vrLoc = 31;
+	};
+	E7BAB2691311BB3A001432E7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'color' undeclared (first use in this function)";
+		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 56;
+		rType = 1;
+	};
+	E7BAB26A1311BB3A001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
+		name = "ColorPickerViewController.m: 56";
+		rLen = 0;
+		rLoc = 1628;
+		rType = 0;
+		vrLen = 1244;
+		vrLoc = 562;
+	};
+	E7BAB26D1311BB43001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ColorPicker_Prefix.pch */;
+		name = "ColorPicker_Prefix.pch: 41";
+		rLen = 0;
+		rLoc = 1940;
+		rType = 0;
+		vrLen = 1900;
+		vrLoc = 0;
+	};
+	E7BAB2721311BB84001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ColorPicker_Prefix.pch */;
+		name = "ColorPicker_Prefix.pch: 41";
+		rLen = 0;
+		rLoc = 1940;
+		rType = 0;
+		vrLen = 1900;
+		vrLoc = 0;
+	};
+	E7BAB2731311BB84001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
+		name = "ColorPickerViewController.m: 90";
+		rLen = 0;
+		rLoc = 2612;
+		rType = 0;
+		vrLen = 1145;
+		vrLoc = 0;
+	};
+	E7BAB2741311BB84001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
+		name = "ColorPickerViewController.m: 91";
+		rLen = 0;
+		rLoc = 2607;
+		rType = 0;
+		vrLen = 1171;
+		vrLoc = 1716;
+	};
+	E7BAB2751311BBA4001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
+		name = "ColorPickerViewController.m: 80";
+		rLen = 0;
+		rLoc = 2265;
+		rType = 0;
+		vrLen = 1270;
+		vrLoc = 1716;
+	};
+	E7BAB2761311BBA4001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 29";
+		rLen = 0;
+		rLoc = 1689;
+		rType = 0;
+		vrLen = 1923;
+		vrLoc = 0;
+	};
+	E7BAB2771311BBA4001432E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ColorPicker_Prefix.pch */;
+		name = "ColorPicker_Prefix.pch: 41";
+		rLen = 0;
+		rLoc = 1940;
+		rType = 0;
+		vrLen = 1940;
 		vrLoc = 0;
 	};
 	E7C63B6D12399A3800297964 /* PBXTextBookmark */ = {
@@ -629,7 +848,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ColorPickerViewController.m */;
 		name = "ColorPickerViewController.m: 67";
 		rLen = 0;
-		rLoc = 1872;
+		rLoc = 2139;
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 586;
