@@ -34,9 +34,11 @@
 
 @interface StandinViewController : UIViewController <ColorPickerViewControllerDelegate> {
     IBOutlet UIView *colorSwatch;
+	IBOutlet UIView *cmyColor;
 }
 
 @property (readwrite,nonatomic,retain) IBOutlet UIView *colorSwatch;
+@property (readwrite, nonatomic, retain) IBOutlet UIView *cmyColor;
 
 -(IBAction) selectColor:(id)sender;
 
