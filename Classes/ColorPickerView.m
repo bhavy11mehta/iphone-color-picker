@@ -165,7 +165,7 @@
 
 - (void)drawRect:(CGRect)rect {
     
-	//CGFloat x = currentHue * kMatrixWidth;
+	CGFloat x = currentHue * kMatrixWidth;
 	//CGFloat y = currentSaturation * kMatrixHeight;
 	
 	//crossHairs.center = CGPointMake(x,y);
