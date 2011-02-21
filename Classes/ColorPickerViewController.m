@@ -28,16 +28,9 @@ NSString *keyForBright = @"bright";
 - (void)viewDidLoad {
     [super viewDidLoad];
 #ifdef IPHONE_COLOR_PICKER_SAVE_DEFAULT
-	NSUserDefaults *saveColors = [NSUserDefaults standardUserDefaults];
 	if (defaultsKey==nil) {
         self.defaultsKey = @"";
         NSLog(@"problem 0 in ColorPickerViewController.viewDidLoad");
-    }
-    
-    NSData *colorData= [saveColors objectForKey:defaultsKey];
-    UIColor *color;
-    if (colorData!=nil) {
-        color = (UIColor*)[NSKeyedUnarchiver unarchiveObjectWithData:colorData];
     }
 #endif
     
@@ -46,15 +39,31 @@ NSString *keyForBright = @"bright";
 }
 
 -(void) moveToDefault {
-  ColorPickerView *theView = (ColorPickerView*) [self view];
+	NSUserDefaults *saveColors = [NSUserDefaults standardUserDefaults];
+	UIColor *theColor;
+	ColorPickerView *theView = (ColorPickerView *)[self view];
   #ifdef IPHONE_COLOR_PICKER_SAVE_DEFAULT
-    NSUserDefaults *saveColors = [NSUserDefaults standardUserDefaults];
-    NSData *colorData= [saveColors objectForKey:defaultsKey];
-    UIColor *color;
-    if (colorData!=nil) {
-        color = (UIColor*)[NSKeyedUnarchiver unarchiveObjectWithData:colorData];
-    }
-    [theView setColor:color];
+    if ([defaultsKey isEqualToString:@"CMYColor"]) { // CMY Color
+		NSArray *componentsArray = [saveColors objectForKey:@"CMYComponents"];
+		float components[5] = {[[componentsArray objectAtIndex:0] floatValue], [[componentsArray objectAtIndex:1] floatValue], [[componentsArray objectAtIndex:2] floatValue], 0.0, 1.0};
+		
+		CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceCMYK();
+		CGColorRef color = CGColorCreate(colorSpace, components);
+		
+		theColor = [UIColor colorWithCGColor:color];
+		
+		[theView setColor:theColor];
+		
+		CGColorRelease(color);
+		CGColorSpaceRelease(colorSpace);
+	} else { // RGB Color
+		NSData *colorData = [saveColors objectForKey:defaultsKey];
+		if (colorData != nil) {
+			theColor = (UIColor*)[NSKeyedUnarchiver unarchiveObjectWithData:colorData];
+		}
+		
+		[theView setColor:theColor];
+	}
   #else
     [theView setColor:defaultsColor];
   #endif
@@ -80,13 +89,29 @@ NSString *keyForBright = @"bright";
         NSLog(@"problem 0 in ColorPickerViewController.viewDidLoad");
     }
     
-    NSData *colorData= [userDefaults objectForKey:defaultsKey];
-    UIColor *color;
-    if (colorData!=nil) {
-        color = (UIColor*)[NSKeyedUnarchiver unarchiveObjectWithData:colorData];
-    }
-    
-    [delegate colorPickerViewController:self didSelectColor:color];
+	UIColor *theColor;
+	
+    if ([defaultsKey isEqualToString:@"CMYColor"]) { // CMY Color
+		NSArray *componentsArray = [userDefaults objectForKey:@"CMYComponents"];
+		float components[5] = {[[componentsArray objectAtIndex:0] floatValue], [[componentsArray objectAtIndex:1] floatValue], [[componentsArray objectAtIndex:2] floatValue], 0.0, 1.0};
+		
+		CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceCMYK();
+		CGColorRef color = CGColorCreate(colorSpace, components);
+		
+		theColor = [UIColor colorWithCGColor:color];
+		
+		[delegate colorPickerViewController:self didSelectColor:theColor];
+		
+		CGColorRelease(color);
+		CGColorSpaceRelease(colorSpace);
+	} else { // RGB Color
+		NSData *colorData = [userDefaults objectForKey:defaultsKey];
+		if (colorData != nil) {
+			theColor = (UIColor*)[NSKeyedUnarchiver unarchiveObjectWithData:colorData];
+		}
+		
+		[delegate colorPickerViewController:self didSelectColor:theColor];
+	}
     #else
     [self dismissModalViewControllerAnimated:YES];
     #endif

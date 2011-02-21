@@ -32,14 +32,17 @@
 
 @implementation StandinViewController
 
-@synthesize colorSwatch;
+@synthesize colorSwatch, cmyColor;
 
 -(IBAction) selectColor:(id)sender {
-    ColorPickerViewController *colorPickerViewController = 
-        [[ColorPickerViewController alloc] initWithNibName:@"ColorPickerViewController" bundle:nil];
+    ColorPickerViewController *colorPickerViewController = [[ColorPickerViewController alloc] initWithNibName:@"ColorPickerViewController" bundle:nil];
     colorPickerViewController.delegate = self;
 #ifdef IPHONE_COLOR_PICKER_SAVE_DEFAULT
-    colorPickerViewController.defaultsKey = @"SwatchColor";
+	if ([sender tag] == 1) { // Choose RGB Color
+		colorPickerViewController.defaultsKey = @"SwatchColor";
+	} else if ([sender tag] == 2) { // Choose CMY Color
+		colorPickerViewController.defaultsKey = @"CMYColor";
+	}
 #else
     // We re-use the current value set to the background of this demonstration view
     colorPickerViewController.defaultsColor = colorSwatch.backgroundColor;
@@ -52,18 +55,20 @@
     NSLog(@"Color: %d",color);
     
 #ifdef IPHONE_COLOR_PICKER_SAVE_DEFAULT
-    NSData *colorData = [NSKeyedArchiver archivedDataWithRootObject:color];
-    [[NSUserDefaults standardUserDefaults] setObject:colorData forKey:colorPicker.defaultsKey];
-    
-    if ([colorPicker.defaultsKey isEqualToString:@"SwatchColor"]) {
-        colorSwatch.backgroundColor = color;
-    }
-#else
-    // No storage & check, just assign back the color
-    colorSwatch.backgroundColor = color;
+    if ([colorPicker.defaultsKey isEqualToString:@"SwatchColor"]) { // RGB Color
+		NSData *colorData = [NSKeyedArchiver archivedDataWithRootObject:color];
+		[[NSUserDefaults standardUserDefaults] setObject:colorData forKey:colorPicker.defaultsKey];
+	} else if ([colorPicker.defaultsKey isEqualToString:@"CMYColor"]) { // CMY Color
+		CGColorRef colorRef = [color CGColor];
+		int numberOfComponents = CGColorGetNumberOfComponents(colorRef);
+		if (numberOfComponents == 5) {
+			const CGFloat *components = CGColorGetComponents(colorRef);
+			[[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:[NSNumber numberWithFloat:components[0]], [NSNumber numberWithFloat:components[1]], [NSNumber numberWithFloat:components[2]], [NSNumber numberWithFloat:0.0], [NSNumber numberWithFloat:1.0], nil] forKey:@"CMYComponents"];
+		}
+	}
 #endif
-
-        
+	
+	colorSwatch.backgroundColor = color;
     [colorPicker dismissModalViewControllerAnimated:YES];
 }
 
@@ -94,6 +99,11 @@
         // Store the NSData into the user defaults
         [[NSUserDefaults standardUserDefaults] setObject:colorData forKey:@"SwatchColor"];
     }
+	
+	if ([[NSUserDefaults standardUserDefaults] objectForKey:@"CMYComponents"] == nil) { // whiteColor
+		[[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:[NSNumber numberWithFloat:0.0], [NSNumber numberWithFloat:0.0], [NSNumber numberWithFloat:0.0], [NSNumber numberWithFloat:0.0], [NSNumber numberWithFloat:1.0], nil] forKey:@"CMYComponents"];
+	}
+	
     // Set the swatch color
     colorSwatch.backgroundColor = color;
 #else
@@ -116,11 +126,13 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     colorSwatch = nil;
+	cmyColor = nil;
 }
 
 
 - (void)dealloc {
     [colorSwatch release];
+	[cmyColor release];
     [super dealloc];
 }
 
