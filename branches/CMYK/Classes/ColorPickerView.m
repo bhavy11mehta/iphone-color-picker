@@ -47,6 +47,43 @@
 }
 
 - (void) setColor:(UIColor *)color {
+    CGColorSpaceModel model = [color colorSpaceModel];
+    if (model !=  kCGColorSpaceModelRGB) {
+        
+        NSLog(@"wrong colorspace");
+        CGColorRef cgColor = [color CGColor];
+        const CGFloat *components;
+        CGFloat rgb[3];
+        switch (model) {
+            case kCGColorSpaceModelUnknown:
+                break;
+            case kCGColorSpaceModelMonochrome:
+                break;
+            case kCGColorSpaceModelCMYK:
+                
+                components = CGColorGetComponents(cgColor);
+
+                // Cyan
+                rgb[0] = components[0] - components[0]*components[3] + components[3];
+                // Magenta
+                rgb[1] = components[1] - components[1]*components[3] + components[3];
+                // Yellow
+                rgb[2] = components[2] - components[2]*components[3] + components[3];
+                
+                color = [UIColor colorWithRed:1.0-rgb[0] green:1.0-rgb[1] blue:1.0-rgb[2] alpha:components[4]];
+                break;
+            case kCGColorSpaceModelLab:
+                break;
+            case kCGColorSpaceModelDeviceN:
+                break;
+            case kCGColorSpaceModelIndexed:
+                break;
+            case kCGColorSpaceModelPattern:
+                break;
+            default:
+                break;
+        }
+    }
     currentColor = color;
     currentHue = color.hue;
     currentSaturation = color.saturation;
