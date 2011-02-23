@@ -58,6 +58,8 @@
     if ([colorPicker.defaultsKey isEqualToString:@"SwatchColor"]) { // RGB Color
 		NSData *colorData = [NSKeyedArchiver archivedDataWithRootObject:color];
 		[[NSUserDefaults standardUserDefaults] setObject:colorData forKey:colorPicker.defaultsKey];
+		
+		colorSwatch.backgroundColor = color;
 	} else if ([colorPicker.defaultsKey isEqualToString:@"CMYColor"]) { // CMY Color
 		CGColorRef colorRef = [color CGColor];
 		int numberOfComponents = CGColorGetNumberOfComponents(colorRef);
@@ -65,10 +67,11 @@
 			const CGFloat *components = CGColorGetComponents(colorRef);
 			[[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:[NSNumber numberWithFloat:components[0]], [NSNumber numberWithFloat:components[1]], [NSNumber numberWithFloat:components[2]], [NSNumber numberWithFloat:0.0], [NSNumber numberWithFloat:1.0], nil] forKey:@"CMYComponents"];
 		}
+		
+		cmyColor.backgroundColor = color;
 	}
 #endif
 	
-	colorSwatch.backgroundColor = color;
     [colorPicker dismissModalViewControllerAnimated:YES];
 }
 
