@@ -142,6 +142,12 @@ static NSMutableDictionary *colorNameCache = nil;
 			b = components[2];
 			a = components[3];
 			break;
+        case kCGColorSpaceModelCMYK:
+            r = 1 - (components[0] - components[0]*components[3] + components[3]);
+            g = 1 - (components[1] - components[1]*components[3] + components[3]);
+            b = 1 - (components[2] - components[2]*components[3] + components[3]);
+            a = components[4];
+            break;
 		default:	// We don't know how to handle this model
 			return NO;
 	}
@@ -155,20 +161,117 @@ static NSMutableDictionary *colorNameCache = nil;
 }
 
 - (CGFloat)red {
-	NSAssert(self.canProvideRGBComponents, @"Must be an RGB color to use -red");
+    
+    CGColorSpaceModel model = [self colorSpaceModel];
+    if (model !=  kCGColorSpaceModelRGB) {
+        
+        CGColorRef cgColor = self.CGColor;
+        const CGFloat *components;
+        
+        switch (model) {
+            case kCGColorSpaceModelUnknown:
+                break;
+            case kCGColorSpaceModelMonochrome:
+                break;
+            case kCGColorSpaceModelCMYK:
+                
+                components = CGColorGetComponents(cgColor);
+                
+                // Cyan
+                return 1 - (components[0] - components[0]*components[3] + components[3]);
+                
+                break;
+            case kCGColorSpaceModelLab:
+                break;
+            case kCGColorSpaceModelDeviceN:
+                break;
+            case kCGColorSpaceModelIndexed:
+                break;
+            case kCGColorSpaceModelPattern:
+                break;
+            default:
+                break;
+        }
+    }
+    
+	NSAssert(self.canProvideRGBComponents, @"Must be an RGB or CMYK color to use -red");
 	const CGFloat *c = CGColorGetComponents(self.CGColor);
 	return c[0];
 }
 
 - (CGFloat)green {
-	NSAssert(self.canProvideRGBComponents, @"Must be an RGB color to use -green");
+    
+    CGColorSpaceModel model = [self colorSpaceModel];
+    if (model !=  kCGColorSpaceModelRGB) {
+        
+        CGColorRef cgColor = self.CGColor;
+        const CGFloat *components;
+        
+        switch (model) {
+            case kCGColorSpaceModelUnknown:
+                break;
+            case kCGColorSpaceModelMonochrome:
+                break;
+            case kCGColorSpaceModelCMYK:
+                
+                components = CGColorGetComponents(cgColor);
+                
+                return 1 - (components[1] - components[1]*components[3] + components[3]);
+                
+                break;
+            case kCGColorSpaceModelLab:
+                break;
+            case kCGColorSpaceModelDeviceN:
+                break;
+            case kCGColorSpaceModelIndexed:
+                break;
+            case kCGColorSpaceModelPattern:
+                break;
+            default:
+                break;
+        }
+    }
+    
+	NSAssert(self.canProvideRGBComponents, @"Must be an RGB or CMYK color to use -green");
 	const CGFloat *c = CGColorGetComponents(self.CGColor);
 	if (self.colorSpaceModel == kCGColorSpaceModelMonochrome) return c[0];
 	return c[1];
 }
 
 - (CGFloat)blue {
-	NSAssert(self.canProvideRGBComponents, @"Must be an RGB color to use -blue");
+    
+    CGColorSpaceModel model = [self colorSpaceModel];
+    if (model !=  kCGColorSpaceModelRGB) {
+        
+        CGColorRef cgColor = self.CGColor;
+        const CGFloat *components;
+        
+        switch (model) {
+            case kCGColorSpaceModelUnknown:
+                break;
+            case kCGColorSpaceModelMonochrome:
+                break;
+            case kCGColorSpaceModelCMYK:
+                
+                components = CGColorGetComponents(cgColor);
+                
+                return 1 - (components[2] - components[2]*components[3] + components[3]);
+                
+                break;
+            case kCGColorSpaceModelLab:
+                break;
+            case kCGColorSpaceModelDeviceN:
+                break;
+            case kCGColorSpaceModelIndexed:
+                break;
+            case kCGColorSpaceModelPattern:
+                break;
+            default:
+                break;
+        }
+    }
+    
+	NSAssert(self.canProvideRGBComponents, @"Must be an RGB or CMYK color to use -blue");
 	const CGFloat *c = CGColorGetComponents(self.CGColor);
 	if (self.colorSpaceModel == kCGColorSpaceModelMonochrome) return c[0];
 	return c[2];
