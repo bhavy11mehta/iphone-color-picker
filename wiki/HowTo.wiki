@@ -27,9 +27,9 @@
        ColorSwatchView.h
 }}}
 
-2. Now you can use the ColorPickerViewController
+2. Now you can use the !ColorPickerViewController
 
-See the file StandinViewController.m for example usage
+See the file !StandinViewController.m for example usage
     
 ==Defaults Configuration==
 
