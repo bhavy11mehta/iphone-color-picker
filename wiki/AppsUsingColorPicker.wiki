@@ -1,0 +1,11 @@
+#summary Apps known to be using iPhone Color Picker
+#labels 
+
+=Introduction=
+This is a list of some of the apps on the iPhone and iPad that are using the color picker. Please add yours if you have one.
+
+==iPhone==
+* [http://www.fabiancanas.com/Projects/TrustyBook/ TrustyBook]
+
+==iPad==
+* [http://www.fabiancanas.com/Projects/TrustyBook/ TrustyBook]
