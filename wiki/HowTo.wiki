@@ -1,5 +1,5 @@
 #summary Usage of the ColorPickerViewController in your own project
-#labels
+#labels Featured
 
 =Instructions=
 
