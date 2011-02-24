@@ -3,7 +3,7 @@
 
 =Instructions=
 
- # Add the following files into your project
+1. Add the following files into your project
 
 {{{
     ColorPickerViewController.xib
@@ -27,8 +27,9 @@
        ColorSwatchView.h
 }}}
 
- # Now you can use the ColorPickerViewController
-    See the file StandinViewController.m for example usage
+2. Now you can use the ColorPickerViewController
+
+See the file StandinViewController.m for example usage
     
 ==Defaults Configuration==
 
