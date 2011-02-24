@@ -39,3 +39,12 @@
 #endif
 
 #define IPHONE_COLOR_PICKER_SAVE_DEFAULT
+/* The color is stored in the app defaults and recalled on next program start
+ * Identifier key is: defaultsKey
+ */
+
+//#undef IPHONE_COLOR_PICKER_SAVE_DEFAULT
+/* The initial color must be assigned after object construction
+ * No app defaults are accessed
+ * Member Variable is: defaultsColor
+ */
