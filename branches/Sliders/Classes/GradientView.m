@@ -88,14 +88,14 @@ CGPoint demoLGEnd(CGRect bounds)
 	// The clipping rects we plan to use, which also defines the locations of each gradient
 	CGRect clips[] =
 	{
-		CGRectMake(0.0, 0.0, 300.0, 60.0),
+		CGRectMake(0.0, 0.0, self.frame.size.width, self.frame.size.height),
 		//self.frame,
 	};
 	
 	CGPoint points[] =
 	{
 		CGPointMake(0,0),
-		CGPointMake(300,0),
+		CGPointMake(self.frame.size.width,0),
 	};
 	// Linear Gradients
 	CGPoint start, end;
