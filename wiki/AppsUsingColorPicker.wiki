@@ -4,9 +4,8 @@
 This is a list of some of the apps on the iPhone and iPad that are using the color picker. Please add yours if you have one.
 
 ==iPhone==
-* [http://www.fabiancanas.com/Projects/TrustyBook/ TrustyBook]
+  * [http://www.fabiancanas.com/Projects/TrustyBook/ TrustyBook]
 
 ==iPad==
-* [http://www.fabiancanas.com/Projects/TrustyBook/ TrustyBook]
-
-* [http://click.linksynergy.com/fs-bin/stat?id=OutMLIuPRIc&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fsolitaire-plus-hd%252Fid408256230%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30"  Solitaire Plus! HD]
+  * [http://www.fabiancanas.com/Projects/TrustyBook/ TrustyBook]
+  * [http://click.linksynergy.com/fs-bin/stat?id=OutMLIuPRIc&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fsolitaire-plus-hd%252Fid408256230%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30"  Solitaire Plus! HD]
