@@ -45,7 +45,7 @@
 					<object class="IBUIView" id="204055690">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{210, 17}, {83, 82}}</string>
+						<string key="NSFrame">{{203, 17}, {97, 82}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">1</int>
@@ -87,7 +87,7 @@
 					<object class="IBUIButton" id="861591739">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 17}, {168, 37}}</string>
+						<string key="NSFrame">{{19, 17}, {168, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -116,7 +116,7 @@
 					<object class="IBUIButton" id="840040565">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 62}, {168, 37}}</string>
+						<string key="NSFrame">{{19, 62}, {168, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -266,8 +266,10 @@
 					<string>16.IBPluginDependency</string>
 					<string>17.IBPluginDependency</string>
 					<string>41.IBPluginDependency</string>
+					<string>41.IBViewBoundsToFrameTransform</string>
 					<string>45.CustomClassName</string>
 					<string>45.IBPluginDependency</string>
+					<string>45.IBViewBoundsToFrameTransform</string>
 					<string>59.IBPluginDependency</string>
 					<string>6.CustomClassName</string>
 					<string>6.IBEditorWindowLastContentRect</string>
@@ -280,8 +282,14 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">P4AAAL+AAABBoAAAwlAAAA</bytes>
+					</object>
 					<string>ColorSwatchView</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">P4AAAL+AAABDSwAAwsgAAA</bytes>
+					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>ColorPickerView</string>
 					<string>{{358, 260}, {320, 480}}</string>
