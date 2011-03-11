@@ -37,12 +37,12 @@
 @synthesize theColor;
 
 
-- (id)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
-        // Initialization code
-    }
-    return self;
-}
+//- (id)initWithFrame:(CGRect)frame {
+//    if (self = [super initWithFrame:frame]) {
+//        // Initialization code
+//    }
+//    return self;
+//}
 
 
 // Returns an appropriate starting point for the demonstration of a linear gradient
