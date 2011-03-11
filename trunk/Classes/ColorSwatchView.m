@@ -44,7 +44,7 @@ void drawRoundRect(CGContextRef context, CGRect rect) {
 
         CGColorSpaceRef rgba = CGColorSpaceCreateDeviceRGB();
         
-        CGColorRef borderColor = [[UIColor darkGrayColor] CGColor];
+        CGColorRef borderColor = [[UIColor grayColor] CGColor];
         
         CGFloat channelsFill[] = {1.0,1.0,1.0,1.0};
 
@@ -59,7 +59,8 @@ void drawRoundRect(CGContextRef context, CGRect rect) {
         CGContextSetLineWidth(currentContext, 1);
         CGContextSetStrokeColorWithColor(currentContext, borderColor);
         
-        drawRoundRect(currentContext, rect);
+        CGRect newRect = CGRectMake(rect.origin.x+1, rect.origin.y+1, rect.size.width-2, rect.size.height-2);
+        drawRoundRect(currentContext, newRect);
         
         //
         // Clean-up
