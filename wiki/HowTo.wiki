@@ -74,9 +74,9 @@ It is possible to store and recall the set color value automatically. This behav
 
 `#ifdef IPHONE_COLOR_PICKER_SAVE_DEFAULT`
   * The color is stored in the app defaults and recalled on next program start
-  * Identifier key is: defaultsKey
+  * Identifier key is the string stored in `defaultsKey`
 
 `#undef IPHONE_COLOR_PICKER_SAVE_DEFAULT`
   * The initial color must be assigned after object construction
   * No app defaults are accessed
-  * Member Variable is: defaultsColor
+  * Member Variable is: `defaultsColor`
