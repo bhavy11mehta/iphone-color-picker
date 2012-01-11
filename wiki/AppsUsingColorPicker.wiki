@@ -11,3 +11,5 @@ This is a list of some of the apps on the iPhone and iPad that are using the col
 ==iPad==
   * [http://www.trustybook.com TrustyBook]
   * [http://click.linksynergy.com/fs-bin/stat?id=OutMLIuPRIc&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fsolitaire-plus-hd%252Fid408256230%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30"  Solitaire Plus! HD]
+  * [http://click.linksynergy.com/fs-bin/stat?id=OutMLIuPRIc&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Ftap-menu%252Fid443733990%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30 Tap Menu]
+  * [http://itunes.apple.com/us/app//id486012400?mt=8 Tap Menu Lite]
